@@ -1,0 +1,39 @@
+一.用自定义xib（的UIView）添加到Storyboard（的ViewController上显示）（不支持实时预览）
+
+1. 新建一个类继承自UIView
+2. 新建一个UIView的xib，名字最好和上面一样
+3. 设置xib的File’s Owner 的Custom Class为我们新建的类
+4. 将xib下的View拖拽到类中关联IBOutlet属性变量
+5. 修改类文件代码
+```
+class FirstView: UIView {
+
+    @IBOutlet var view: UIView!
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        initViewFromNib()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initViewFromNib()
+    }
+    
+    private func initViewFromNib(){
+        // 需要这句代码，不能直接写UINib(nibName: "", bundle: nil)，不然不能在storyboard中显示
+        let bundle = Bundle(for: type(of: self))
+        let nib = UINib(nibName: "FirstView", bundle: bundle)
+        self.view = (nib.instantiate(withOwner: self, options: nil).first as! UIView)
+        self.view.frame = bounds
+        self.addSubview(view)
+    
+    }
+    
+}
+```
+6. 拖拽一个UIView到Main.storyboard的ViewController中，设置该UIView的Custom Class为第1步新建的类名, 添加一下布局约束。 
+
+
+二.自定义xib添加到Storyboard（不支持实时预览）
+与一中的一样，只是最后一步6中的的ViewController换成了XIB创建的而已

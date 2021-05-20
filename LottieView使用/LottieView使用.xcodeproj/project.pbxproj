@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF6C7C7240B5D7800381D2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6C7C6240B5D7800381D2F /* AppDelegate.swift */; };
+		3CF6C7C9240B5D7800381D2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6C7C8240B5D7800381D2F /* SceneDelegate.swift */; };
+		3CF6C7CB240B5D7800381D2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6C7CA240B5D7800381D2F /* ViewController.swift */; };
+		3CF6C7CE240B5D7800381D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6C7CC240B5D7800381D2F /* Main.storyboard */; };
+		3CF6C7D0240B5D7900381D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6C7CF240B5D7900381D2F /* Assets.xcassets */; };
+		3CF6C7D3240B5D7900381D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6C7D1240B5D7900381D2F /* LaunchScreen.storyboard */; };
+		3CF6C7DE240B5D7900381D2F /* LottieView__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6C7DD240B5D7900381D2F /* LottieView__Tests.swift */; };
+		3CF6C7E9240B5D7900381D2F /* LottieView__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF6C7E8240B5D7900381D2F /* LottieView__UITests.swift */; };
+		3CF6C7F9240B5FBF00381D2F /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6C7F7240B5FBF00381D2F /* loading.json */; };
+		3CF6C7FA240B5FBF00381D2F /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CF6C7F8240B5FBF00381D2F /* success.json */; };
+		3CF6C800240B600D00381D2F /* Pods_LottieView使用.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF6C7FF240B600D00381D2F /* Pods_LottieView使用.framework */; };
+		3CF6C801240B600D00381D2F /* Pods_LottieView使用.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF6C7FF240B600D00381D2F /* Pods_LottieView使用.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCB593163F3B29BA22F40555 /* Pods_LottieView__Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E873D4D1EEF221E08AA1775E /* Pods_LottieView__Tests.framework */; };
+		F7B04FFE7DEE3893862E3800 /* Pods_LottieView___LottieView__UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D4D5786E2C529CB1A372E6 /* Pods_LottieView___LottieView__UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF6C7DA240B5D7900381D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF6C7BB240B5D7800381D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF6C7C2240B5D7800381D2F;
+			remoteInfo = "LottieView使用";
+		};
+		3CF6C7E5240B5D7900381D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF6C7BB240B5D7800381D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF6C7C2240B5D7800381D2F;
+			remoteInfo = "LottieView使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CF6C802240B600D00381D2F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3CF6C801240B600D00381D2F /* Pods_LottieView使用.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C2CB891D72F371AE04776BC /* Pods-LottieView使用-LottieView使用UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用-LottieView使用UITests.release.xcconfig"; path = "Target Support Files/Pods-LottieView使用-LottieView使用UITests/Pods-LottieView使用-LottieView使用UITests.release.xcconfig"; sourceTree = "<group>"; };
+		17F9BDBA41AA0A3017843606 /* Pods_LottieView__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieView__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D4D5786E2C529CB1A372E6 /* Pods_LottieView___LottieView__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_LottieView___LottieView__UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6C7C3240B5D7800381D2F /* LottieView使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LottieView使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6C7C6240B5D7800381D2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF6C7C8240B5D7800381D2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CF6C7CA240B5D7800381D2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CF6C7CD240B5D7800381D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF6C7CF240B5D7900381D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF6C7D2240B5D7900381D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF6C7D4240B5D7900381D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF6C7D9240B5D7900381D2F /* LottieView使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LottieView使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6C7DD240B5D7900381D2F /* LottieView__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView__Tests.swift; sourceTree = "<group>"; };
+		3CF6C7DF240B5D7900381D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF6C7E4240B5D7900381D2F /* LottieView使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LottieView使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6C7E8240B5D7900381D2F /* LottieView__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView__UITests.swift; sourceTree = "<group>"; };
+		3CF6C7EA240B5D7900381D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF6C7F7240B5FBF00381D2F /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		3CF6C7F8240B5FBF00381D2F /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		3CF6C7FB240B5FFB00381D2F /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6C7FF240B600D00381D2F /* Pods_LottieView使用.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_LottieView使用.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		455BD37BBE993A1A6F9281CE /* Pods-LottieView使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用.release.xcconfig"; path = "Target Support Files/Pods-LottieView使用/Pods-LottieView使用.release.xcconfig"; sourceTree = "<group>"; };
+		B3C31A48D449746B3BF9531B /* Pods-LottieView使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用.debug.xcconfig"; path = "Target Support Files/Pods-LottieView使用/Pods-LottieView使用.debug.xcconfig"; sourceTree = "<group>"; };
+		C613D64F60870C525D5DD4A1 /* Pods-LottieView使用Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用Tests.release.xcconfig"; path = "Target Support Files/Pods-LottieView使用Tests/Pods-LottieView使用Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE23996304517500D834AEAD /* Pods-LottieView使用-LottieView使用UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用-LottieView使用UITests.debug.xcconfig"; path = "Target Support Files/Pods-LottieView使用-LottieView使用UITests/Pods-LottieView使用-LottieView使用UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C3511642CB1FFB418B8F0E /* Pods-LottieView使用Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieView使用Tests.debug.xcconfig"; path = "Target Support Files/Pods-LottieView使用Tests/Pods-LottieView使用Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E873D4D1EEF221E08AA1775E /* Pods_LottieView__Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieView__Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF6C7C0240B5D7800381D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6C800240B600D00381D2F /* Pods_LottieView使用.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7D6240B5D7900381D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB593163F3B29BA22F40555 /* Pods_LottieView__Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7E1240B5D7900381D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B04FFE7DEE3893862E3800 /* Pods_LottieView___LottieView__UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147B72D877EAECF6B7BA13D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C31A48D449746B3BF9531B /* Pods-LottieView使用.debug.xcconfig */,
+				455BD37BBE993A1A6F9281CE /* Pods-LottieView使用.release.xcconfig */,
+				CE23996304517500D834AEAD /* Pods-LottieView使用-LottieView使用UITests.debug.xcconfig */,
+				0C2CB891D72F371AE04776BC /* Pods-LottieView使用-LottieView使用UITests.release.xcconfig */,
+				D5C3511642CB1FFB418B8F0E /* Pods-LottieView使用Tests.debug.xcconfig */,
+				C613D64F60870C525D5DD4A1 /* Pods-LottieView使用Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1799F0BF0D30EC7D8F669D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7FF240B600D00381D2F /* Pods_LottieView使用.framework */,
+				3CF6C7FB240B5FFB00381D2F /* Lottie.framework */,
+				17F9BDBA41AA0A3017843606 /* Pods_LottieView__.framework */,
+				27D4D5786E2C529CB1A372E6 /* Pods_LottieView___LottieView__UITests.framework */,
+				E873D4D1EEF221E08AA1775E /* Pods_LottieView__Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF6C7BA240B5D7800381D2F = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7C5240B5D7800381D2F /* LottieView使用 */,
+				3CF6C7DC240B5D7900381D2F /* LottieView使用Tests */,
+				3CF6C7E7240B5D7900381D2F /* LottieView使用UITests */,
+				3CF6C7C4240B5D7800381D2F /* Products */,
+				147B72D877EAECF6B7BA13D3 /* Pods */,
+				1799F0BF0D30EC7D8F669D6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF6C7C4240B5D7800381D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7C3240B5D7800381D2F /* LottieView使用.app */,
+				3CF6C7D9240B5D7900381D2F /* LottieView使用Tests.xctest */,
+				3CF6C7E4240B5D7900381D2F /* LottieView使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF6C7C5240B5D7800381D2F /* LottieView使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7F6240B5FBF00381D2F /* Lottie */,
+				3CF6C7C6240B5D7800381D2F /* AppDelegate.swift */,
+				3CF6C7C8240B5D7800381D2F /* SceneDelegate.swift */,
+				3CF6C7CA240B5D7800381D2F /* ViewController.swift */,
+				3CF6C7CC240B5D7800381D2F /* Main.storyboard */,
+				3CF6C7CF240B5D7900381D2F /* Assets.xcassets */,
+				3CF6C7D1240B5D7900381D2F /* LaunchScreen.storyboard */,
+				3CF6C7D4240B5D7900381D2F /* Info.plist */,
+			);
+			path = "LottieView使用";
+			sourceTree = "<group>";
+		};
+		3CF6C7DC240B5D7900381D2F /* LottieView使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7DD240B5D7900381D2F /* LottieView__Tests.swift */,
+				3CF6C7DF240B5D7900381D2F /* Info.plist */,
+			);
+			path = "LottieView使用Tests";
+			sourceTree = "<group>";
+		};
+		3CF6C7E7240B5D7900381D2F /* LottieView使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7E8240B5D7900381D2F /* LottieView__UITests.swift */,
+				3CF6C7EA240B5D7900381D2F /* Info.plist */,
+			);
+			path = "LottieView使用UITests";
+			sourceTree = "<group>";
+		};
+		3CF6C7F6240B5FBF00381D2F /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				3CF6C7F7240B5FBF00381D2F /* loading.json */,
+				3CF6C7F8240B5FBF00381D2F /* success.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF6C7C2240B5D7800381D2F /* LottieView使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF6C7ED240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用" */;
+			buildPhases = (
+				F4BCD610F6304C8B9EF3B68C /* [CP] Check Pods Manifest.lock */,
+				3CF6C7BF240B5D7800381D2F /* Sources */,
+				3CF6C7C0240B5D7800381D2F /* Frameworks */,
+				3CF6C7C1240B5D7800381D2F /* Resources */,
+				B1D2027B5800F91C6948F8FA /* [CP] Embed Pods Frameworks */,
+				3CF6C802240B600D00381D2F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LottieView使用";
+			productName = "LottieView使用";
+			productReference = 3CF6C7C3240B5D7800381D2F /* LottieView使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF6C7D8240B5D7900381D2F /* LottieView使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF6C7F0240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用Tests" */;
+			buildPhases = (
+				EF5B07B4EF65123105239537 /* [CP] Check Pods Manifest.lock */,
+				3CF6C7D5240B5D7900381D2F /* Sources */,
+				3CF6C7D6240B5D7900381D2F /* Frameworks */,
+				3CF6C7D7240B5D7900381D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF6C7DB240B5D7900381D2F /* PBXTargetDependency */,
+			);
+			name = "LottieView使用Tests";
+			productName = "LottieView使用Tests";
+			productReference = 3CF6C7D9240B5D7900381D2F /* LottieView使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF6C7E3240B5D7900381D2F /* LottieView使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF6C7F3240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用UITests" */;
+			buildPhases = (
+				50F79131B83A893B9EC837B9 /* [CP] Check Pods Manifest.lock */,
+				3CF6C7E0240B5D7900381D2F /* Sources */,
+				3CF6C7E1240B5D7900381D2F /* Frameworks */,
+				3CF6C7E2240B5D7900381D2F /* Resources */,
+				AC2B61D3BF479533B3259C5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF6C7E6240B5D7900381D2F /* PBXTargetDependency */,
+			);
+			name = "LottieView使用UITests";
+			productName = "LottieView使用UITests";
+			productReference = 3CF6C7E4240B5D7900381D2F /* LottieView使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF6C7BB240B5D7800381D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "杨帆";
+				TargetAttributes = {
+					3CF6C7C2240B5D7800381D2F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3CF6C7D8240B5D7900381D2F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3CF6C7C2240B5D7800381D2F;
+					};
+					3CF6C7E3240B5D7900381D2F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3CF6C7C2240B5D7800381D2F;
+					};
+				};
+			};
+			buildConfigurationList = 3CF6C7BE240B5D7800381D2F /* Build configuration list for PBXProject "LottieView使用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF6C7BA240B5D7800381D2F;
+			productRefGroup = 3CF6C7C4240B5D7800381D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF6C7C2240B5D7800381D2F /* LottieView使用 */,
+				3CF6C7D8240B5D7900381D2F /* LottieView使用Tests */,
+				3CF6C7E3240B5D7900381D2F /* LottieView使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF6C7C1240B5D7800381D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6C7FA240B5FBF00381D2F /* success.json in Resources */,
+				3CF6C7D3240B5D7900381D2F /* LaunchScreen.storyboard in Resources */,
+				3CF6C7D0240B5D7900381D2F /* Assets.xcassets in Resources */,
+				3CF6C7F9240B5FBF00381D2F /* loading.json in Resources */,
+				3CF6C7CE240B5D7800381D2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7D7240B5D7900381D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7E2240B5D7900381D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F79131B83A893B9EC837B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieView使用-LottieView使用UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2B61D3BF479533B3259C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieView使用-LottieView使用UITests/Pods-LottieView使用-LottieView使用UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieView使用-LottieView使用UITests/Pods-LottieView使用-LottieView使用UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieView使用-LottieView使用UITests/Pods-LottieView使用-LottieView使用UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D2027B5800F91C6948F8FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieView使用/Pods-LottieView使用-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieView使用/Pods-LottieView使用-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieView使用/Pods-LottieView使用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5B07B4EF65123105239537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieView使用Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4BCD610F6304C8B9EF3B68C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieView使用-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF6C7BF240B5D7800381D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6C7CB240B5D7800381D2F /* ViewController.swift in Sources */,
+				3CF6C7C7240B5D7800381D2F /* AppDelegate.swift in Sources */,
+				3CF6C7C9240B5D7800381D2F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7D5240B5D7900381D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6C7DE240B5D7900381D2F /* LottieView__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF6C7E0240B5D7900381D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF6C7E9240B5D7900381D2F /* LottieView__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF6C7DB240B5D7900381D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF6C7C2240B5D7800381D2F /* LottieView使用 */;
+			targetProxy = 3CF6C7DA240B5D7900381D2F /* PBXContainerItemProxy */;
+		};
+		3CF6C7E6240B5D7900381D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF6C7C2240B5D7800381D2F /* LottieView使用 */;
+			targetProxy = 3CF6C7E5240B5D7900381D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF6C7CC240B5D7800381D2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF6C7CD240B5D7800381D2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF6C7D1240B5D7900381D2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF6C7D2240B5D7900381D2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF6C7EB240B5D7900381D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF6C7EC240B5D7900381D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF6C7EE240B5D7900381D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C31A48D449746B3BF9531B /* Pods-LottieView使用.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF6C7EF240B5D7900381D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455BD37BBE993A1A6F9281CE /* Pods-LottieView使用.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF6C7F1240B5D7900381D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3511642CB1FFB418B8F0E /* Pods-LottieView使用Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieView使用.app/LottieView使用";
+			};
+			name = Debug;
+		};
+		3CF6C7F2240B5D7900381D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C613D64F60870C525D5DD4A1 /* Pods-LottieView使用Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LottieView使用.app/LottieView使用";
+			};
+			name = Release;
+		};
+		3CF6C7F4240B5D7900381D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE23996304517500D834AEAD /* Pods-LottieView使用-LottieView使用UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LottieView使用";
+			};
+			name = Debug;
+		};
+		3CF6C7F5240B5D7900381D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2CB891D72F371AE04776BC /* Pods-LottieView使用-LottieView使用UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LottieView使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yf.LottieView--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LottieView使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF6C7BE240B5D7800381D2F /* Build configuration list for PBXProject "LottieView使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6C7EB240B5D7900381D2F /* Debug */,
+				3CF6C7EC240B5D7900381D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF6C7ED240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6C7EE240B5D7900381D2F /* Debug */,
+				3CF6C7EF240B5D7900381D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF6C7F0240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6C7F1240B5D7900381D2F /* Debug */,
+				3CF6C7F2240B5D7900381D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF6C7F3240B5D7900381D2F /* Build configuration list for PBXNativeTarget "LottieView使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF6C7F4240B5D7900381D2F /* Debug */,
+				3CF6C7F5240B5D7900381D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF6C7BB240B5D7800381D2F /* Project object */;
+}

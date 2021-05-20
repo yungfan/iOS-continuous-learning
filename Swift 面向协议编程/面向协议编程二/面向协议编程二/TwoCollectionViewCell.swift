@@ -1,0 +1,20 @@
+//
+//  TwoCollectionViewCell.swift
+//  面向协议编程二
+//
+//  Created by 杨帆 on 2019/7/17.
+//  Copyright © 2019 杨帆. All rights reserved.
+//
+
+import UIKit
+
+
+//3.UICollectionViewCell遵守协议，获得了弹性动画的功能
+class TwoCollectionViewCell: UICollectionViewCell, BounceSelect {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+}

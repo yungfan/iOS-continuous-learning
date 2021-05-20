@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4629D0211E934500BA76C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4629CF211E934500BA76C1 /* AppDelegate.m */; };
+		3C4629D3211E934500BA76C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4629D2211E934500BA76C1 /* ViewController.m */; };
+		3C4629D6211E934500BA76C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4629D4211E934500BA76C1 /* Main.storyboard */; };
+		3C4629D8211E934600BA76C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4629D7211E934600BA76C1 /* Assets.xcassets */; };
+		3C4629DB211E934600BA76C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4629D9211E934600BA76C1 /* LaunchScreen.storyboard */; };
+		3C4629DE211E934600BA76C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4629DD211E934600BA76C1 /* main.m */; };
+		3C4629E8211E934700BA76C1 /* AccessoryButton_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4629E7211E934700BA76C1 /* AccessoryButton_____Tests.m */; };
+		3C4629F3211E934700BA76C1 /* AccessoryButton_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4629F2211E934700BA76C1 /* AccessoryButton_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C4629E4211E934700BA76C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4629C3211E934500BA76C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4629CA211E934500BA76C1;
+			remoteInfo = "AccessoryButton 添加事件";
+		};
+		3C4629EF211E934700BA76C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4629C3211E934500BA76C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4629CA211E934500BA76C1;
+			remoteInfo = "AccessoryButton 添加事件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C4629CB211E934500BA76C1 /* AccessoryButton 添加事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AccessoryButton 添加事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4629CE211E934500BA76C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C4629CF211E934500BA76C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C4629D1211E934500BA76C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C4629D2211E934500BA76C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C4629D5211E934500BA76C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4629D7211E934600BA76C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4629DA211E934600BA76C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4629DC211E934600BA76C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4629DD211E934600BA76C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C4629E3211E934700BA76C1 /* AccessoryButton 添加事件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AccessoryButton 添加事件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4629E7211E934700BA76C1 /* AccessoryButton_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AccessoryButton_____Tests.m"; sourceTree = "<group>"; };
+		3C4629E9211E934700BA76C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4629EE211E934700BA76C1 /* AccessoryButton 添加事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AccessoryButton 添加事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4629F2211E934700BA76C1 /* AccessoryButton_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AccessoryButton_____UITests.m"; sourceTree = "<group>"; };
+		3C4629F4211E934700BA76C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4629C8211E934500BA76C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629E0211E934700BA76C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629EB211E934700BA76C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4629C2211E934500BA76C1 = {
+			isa = PBXGroup;
+			children = (
+				3C4629CD211E934500BA76C1 /* AccessoryButton 添加事件 */,
+				3C4629E6211E934700BA76C1 /* AccessoryButton 添加事件Tests */,
+				3C4629F1211E934700BA76C1 /* AccessoryButton 添加事件UITests */,
+				3C4629CC211E934500BA76C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4629CC211E934500BA76C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4629CB211E934500BA76C1 /* AccessoryButton 添加事件.app */,
+				3C4629E3211E934700BA76C1 /* AccessoryButton 添加事件Tests.xctest */,
+				3C4629EE211E934700BA76C1 /* AccessoryButton 添加事件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4629CD211E934500BA76C1 /* AccessoryButton 添加事件 */ = {
+			isa = PBXGroup;
+			children = (
+				3C4629CE211E934500BA76C1 /* AppDelegate.h */,
+				3C4629CF211E934500BA76C1 /* AppDelegate.m */,
+				3C4629D1211E934500BA76C1 /* ViewController.h */,
+				3C4629D2211E934500BA76C1 /* ViewController.m */,
+				3C4629D4211E934500BA76C1 /* Main.storyboard */,
+				3C4629D7211E934600BA76C1 /* Assets.xcassets */,
+				3C4629D9211E934600BA76C1 /* LaunchScreen.storyboard */,
+				3C4629DC211E934600BA76C1 /* Info.plist */,
+				3C4629DD211E934600BA76C1 /* main.m */,
+			);
+			path = "AccessoryButton 添加事件";
+			sourceTree = "<group>";
+		};
+		3C4629E6211E934700BA76C1 /* AccessoryButton 添加事件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4629E7211E934700BA76C1 /* AccessoryButton_____Tests.m */,
+				3C4629E9211E934700BA76C1 /* Info.plist */,
+			);
+			path = "AccessoryButton 添加事件Tests";
+			sourceTree = "<group>";
+		};
+		3C4629F1211E934700BA76C1 /* AccessoryButton 添加事件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4629F2211E934700BA76C1 /* AccessoryButton_____UITests.m */,
+				3C4629F4211E934700BA76C1 /* Info.plist */,
+			);
+			path = "AccessoryButton 添加事件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4629CA211E934500BA76C1 /* AccessoryButton 添加事件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4629F7211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件" */;
+			buildPhases = (
+				3C4629C7211E934500BA76C1 /* Sources */,
+				3C4629C8211E934500BA76C1 /* Frameworks */,
+				3C4629C9211E934500BA76C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AccessoryButton 添加事件";
+			productName = "AccessoryButton 添加事件";
+			productReference = 3C4629CB211E934500BA76C1 /* AccessoryButton 添加事件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C4629E2211E934700BA76C1 /* AccessoryButton 添加事件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4629FA211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件Tests" */;
+			buildPhases = (
+				3C4629DF211E934700BA76C1 /* Sources */,
+				3C4629E0211E934700BA76C1 /* Frameworks */,
+				3C4629E1211E934700BA76C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4629E5211E934700BA76C1 /* PBXTargetDependency */,
+			);
+			name = "AccessoryButton 添加事件Tests";
+			productName = "AccessoryButton 添加事件Tests";
+			productReference = 3C4629E3211E934700BA76C1 /* AccessoryButton 添加事件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C4629ED211E934700BA76C1 /* AccessoryButton 添加事件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4629FD211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件UITests" */;
+			buildPhases = (
+				3C4629EA211E934700BA76C1 /* Sources */,
+				3C4629EB211E934700BA76C1 /* Frameworks */,
+				3C4629EC211E934700BA76C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4629F0211E934700BA76C1 /* PBXTargetDependency */,
+			);
+			name = "AccessoryButton 添加事件UITests";
+			productName = "AccessoryButton 添加事件UITests";
+			productReference = 3C4629EE211E934700BA76C1 /* AccessoryButton 添加事件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4629C3211E934500BA76C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "杨帆";
+				TargetAttributes = {
+					3C4629CA211E934500BA76C1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3C4629E2211E934700BA76C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C4629CA211E934500BA76C1;
+					};
+					3C4629ED211E934700BA76C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C4629CA211E934500BA76C1;
+					};
+				};
+			};
+			buildConfigurationList = 3C4629C6211E934500BA76C1 /* Build configuration list for PBXProject "AccessoryButton 添加事件" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4629C2211E934500BA76C1;
+			productRefGroup = 3C4629CC211E934500BA76C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4629CA211E934500BA76C1 /* AccessoryButton 添加事件 */,
+				3C4629E2211E934700BA76C1 /* AccessoryButton 添加事件Tests */,
+				3C4629ED211E934700BA76C1 /* AccessoryButton 添加事件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4629C9211E934500BA76C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4629DB211E934600BA76C1 /* LaunchScreen.storyboard in Resources */,
+				3C4629D8211E934600BA76C1 /* Assets.xcassets in Resources */,
+				3C4629D6211E934500BA76C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629E1211E934700BA76C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629EC211E934700BA76C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4629C7211E934500BA76C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4629D3211E934500BA76C1 /* ViewController.m in Sources */,
+				3C4629DE211E934600BA76C1 /* main.m in Sources */,
+				3C4629D0211E934500BA76C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629DF211E934700BA76C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4629E8211E934700BA76C1 /* AccessoryButton_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4629EA211E934700BA76C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4629F3211E934700BA76C1 /* AccessoryButton_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C4629E5211E934700BA76C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4629CA211E934500BA76C1 /* AccessoryButton 添加事件 */;
+			targetProxy = 3C4629E4211E934700BA76C1 /* PBXContainerItemProxy */;
+		};
+		3C4629F0211E934700BA76C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4629CA211E934500BA76C1 /* AccessoryButton 添加事件 */;
+			targetProxy = 3C4629EF211E934700BA76C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C4629D4211E934500BA76C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4629D5211E934500BA76C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4629D9211E934600BA76C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4629DA211E934600BA76C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4629F5211E934700BA76C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C4629F6211E934700BA76C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4629F8211E934700BA76C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C4629F9211E934700BA76C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C4629FB211E934700BA76C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessoryButton 添加事件.app/AccessoryButton 添加事件";
+			};
+			name = Debug;
+		};
+		3C4629FC211E934700BA76C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccessoryButton 添加事件.app/AccessoryButton 添加事件";
+			};
+			name = Release;
+		};
+		3C4629FE211E934700BA76C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AccessoryButton 添加事件";
+			};
+			name = Debug;
+		};
+		3C4629FF211E934700BA76C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AccessoryButton 添加事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.AccessoryButton-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AccessoryButton 添加事件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4629C6211E934500BA76C1 /* Build configuration list for PBXProject "AccessoryButton 添加事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4629F5211E934700BA76C1 /* Debug */,
+				3C4629F6211E934700BA76C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4629F7211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4629F8211E934700BA76C1 /* Debug */,
+				3C4629F9211E934700BA76C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4629FA211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4629FB211E934700BA76C1 /* Debug */,
+				3C4629FC211E934700BA76C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4629FD211E934700BA76C1 /* Build configuration list for PBXNativeTarget "AccessoryButton 添加事件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4629FE211E934700BA76C1 /* Debug */,
+				3C4629FF211E934700BA76C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4629C3211E934500BA76C1 /* Project object */;
+}

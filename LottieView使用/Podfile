@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LottieView使用' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LottieView使用
+  pod 'lottie-ios'
+
+  target 'LottieView使用Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LottieView使用UITests' do
+    # Pods for testing
+  end
+
+end

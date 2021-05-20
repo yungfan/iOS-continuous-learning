@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C2B11B5205A0D7A002C2DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11B4205A0D7A002C2DDF /* AppDelegate.swift */; };
+		3C2B11BC205A0D7A002C2DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B11BB205A0D7A002C2DDF /* Assets.xcassets */; };
+		3C2B11BF205A0D7A002C2DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2B11BD205A0D7A002C2DDF /* LaunchScreen.storyboard */; };
+		3C2B11CA205A0D7A002C2DDF /* YFTabBarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11C9205A0D7A002C2DDF /* YFTabBarControllerTests.swift */; };
+		3C2B11D5205A0D7A002C2DDF /* YFTabBarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11D4205A0D7A002C2DDF /* YFTabBarControllerUITests.swift */; };
+		3C2B11E7205A0E70002C2DDF /* YFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11E6205A0E70002C2DDF /* YFTabBarController.swift */; };
+		3C2B11E9205A1207002C2DDF /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11E8205A1207002C2DDF /* OneViewController.swift */; };
+		3C2B11EB205A1232002C2DDF /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11EA205A1232002C2DDF /* TwoViewController.swift */; };
+		3C2B11ED205A1241002C2DDF /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11EC205A1241002C2DDF /* ThreeViewController.swift */; };
+		3C2B11EF205A1249002C2DDF /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11EE205A1249002C2DDF /* FourViewController.swift */; };
+		3C2B11F1205A1508002C2DDF /* YFNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11F0205A1508002C2DDF /* YFNavigationController.swift */; };
+		3C2B11F4205A199C002C2DDF /* YFTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11F3205A199C002C2DDF /* YFTabBar.swift */; };
+		3C2B11F6205A1B37002C2DDF /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B11F5205A1B37002C2DDF /* CenterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C2B11C6205A0D7A002C2DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2B11A9205A0D79002C2DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2B11B0205A0D79002C2DDF;
+			remoteInfo = YFTabBarController;
+		};
+		3C2B11D1205A0D7A002C2DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C2B11A9205A0D79002C2DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2B11B0205A0D79002C2DDF;
+			remoteInfo = YFTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C2B11B1205A0D79002C2DDF /* YFTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2B11B4205A0D7A002C2DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C2B11BB205A0D7A002C2DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C2B11BE205A0D7A002C2DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C2B11C0205A0D7A002C2DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2B11C5205A0D7A002C2DDF /* YFTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2B11C9205A0D7A002C2DDF /* YFTabBarControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabBarControllerTests.swift; sourceTree = "<group>"; };
+		3C2B11CB205A0D7A002C2DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2B11D0205A0D7A002C2DDF /* YFTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C2B11D4205A0D7A002C2DDF /* YFTabBarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabBarControllerUITests.swift; sourceTree = "<group>"; };
+		3C2B11D6205A0D7A002C2DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C2B11E6205A0E70002C2DDF /* YFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabBarController.swift; sourceTree = "<group>"; };
+		3C2B11E8205A1207002C2DDF /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		3C2B11EA205A1232002C2DDF /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		3C2B11EC205A1241002C2DDF /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		3C2B11EE205A1249002C2DDF /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		3C2B11F0205A1508002C2DDF /* YFNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFNavigationController.swift; sourceTree = "<group>"; };
+		3C2B11F3205A199C002C2DDF /* YFTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTabBar.swift; sourceTree = "<group>"; };
+		3C2B11F5205A1B37002C2DDF /* CenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2B11AE205A0D79002C2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11C2205A0D7A002C2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11CD205A0D7A002C2DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C2B11A8205A0D79002C2DDF = {
+			isa = PBXGroup;
+			children = (
+				3C2B11B3205A0D7A002C2DDF /* YFTabBarController */,
+				3C2B11C8205A0D7A002C2DDF /* YFTabBarControllerTests */,
+				3C2B11D3205A0D7A002C2DDF /* YFTabBarControllerUITests */,
+				3C2B11B2205A0D79002C2DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C2B11B2205A0D79002C2DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11B1205A0D79002C2DDF /* YFTabBarController.app */,
+				3C2B11C5205A0D7A002C2DDF /* YFTabBarControllerTests.xctest */,
+				3C2B11D0205A0D7A002C2DDF /* YFTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C2B11B3205A0D7A002C2DDF /* YFTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11E2205A0E41002C2DDF /* Classes */,
+				3C2B11B4205A0D7A002C2DDF /* AppDelegate.swift */,
+				3C2B11BB205A0D7A002C2DDF /* Assets.xcassets */,
+				3C2B11BD205A0D7A002C2DDF /* LaunchScreen.storyboard */,
+				3C2B11C0205A0D7A002C2DDF /* Info.plist */,
+			);
+			path = YFTabBarController;
+			sourceTree = "<group>";
+		};
+		3C2B11C8205A0D7A002C2DDF /* YFTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11C9205A0D7A002C2DDF /* YFTabBarControllerTests.swift */,
+				3C2B11CB205A0D7A002C2DDF /* Info.plist */,
+			);
+			path = YFTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		3C2B11D3205A0D7A002C2DDF /* YFTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11D4205A0D7A002C2DDF /* YFTabBarControllerUITests.swift */,
+				3C2B11D6205A0D7A002C2DDF /* Info.plist */,
+			);
+			path = YFTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		3C2B11E2205A0E41002C2DDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11F2205A197F002C2DDF /* View */,
+				3C2B11E3205A0E41002C2DDF /* Controllers */,
+				3C2B11E4205A0E41002C2DDF /* Nav */,
+				3C2B11E5205A0E41002C2DDF /* Tab */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C2B11E3205A0E41002C2DDF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11E8205A1207002C2DDF /* OneViewController.swift */,
+				3C2B11EA205A1232002C2DDF /* TwoViewController.swift */,
+				3C2B11EC205A1241002C2DDF /* ThreeViewController.swift */,
+				3C2B11EE205A1249002C2DDF /* FourViewController.swift */,
+				3C2B11F5205A1B37002C2DDF /* CenterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C2B11E4205A0E41002C2DDF /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11F0205A1508002C2DDF /* YFNavigationController.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		3C2B11E5205A0E41002C2DDF /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11E6205A0E70002C2DDF /* YFTabBarController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		3C2B11F2205A197F002C2DDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C2B11F3205A199C002C2DDF /* YFTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C2B11B0205A0D79002C2DDF /* YFTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2B11D9205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarController" */;
+			buildPhases = (
+				3C2B11AD205A0D79002C2DDF /* Sources */,
+				3C2B11AE205A0D79002C2DDF /* Frameworks */,
+				3C2B11AF205A0D79002C2DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFTabBarController;
+			productName = YFTabBarController;
+			productReference = 3C2B11B1205A0D79002C2DDF /* YFTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C2B11C4205A0D7A002C2DDF /* YFTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2B11DC205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarControllerTests" */;
+			buildPhases = (
+				3C2B11C1205A0D7A002C2DDF /* Sources */,
+				3C2B11C2205A0D7A002C2DDF /* Frameworks */,
+				3C2B11C3205A0D7A002C2DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2B11C7205A0D7A002C2DDF /* PBXTargetDependency */,
+			);
+			name = YFTabBarControllerTests;
+			productName = YFTabBarControllerTests;
+			productReference = 3C2B11C5205A0D7A002C2DDF /* YFTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C2B11CF205A0D7A002C2DDF /* YFTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C2B11DF205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarControllerUITests" */;
+			buildPhases = (
+				3C2B11CC205A0D7A002C2DDF /* Sources */,
+				3C2B11CD205A0D7A002C2DDF /* Frameworks */,
+				3C2B11CE205A0D7A002C2DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C2B11D2205A0D7A002C2DDF /* PBXTargetDependency */,
+			);
+			name = YFTabBarControllerUITests;
+			productName = YFTabBarControllerUITests;
+			productReference = 3C2B11D0205A0D7A002C2DDF /* YFTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C2B11A9205A0D79002C2DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yangfan;
+				TargetAttributes = {
+					3C2B11B0205A0D79002C2DDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3C2B11C4205A0D7A002C2DDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C2B11B0205A0D79002C2DDF;
+					};
+					3C2B11CF205A0D7A002C2DDF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C2B11B0205A0D79002C2DDF;
+					};
+				};
+			};
+			buildConfigurationList = 3C2B11AC205A0D79002C2DDF /* Build configuration list for PBXProject "YFTabBarController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C2B11A8205A0D79002C2DDF;
+			productRefGroup = 3C2B11B2205A0D79002C2DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2B11B0205A0D79002C2DDF /* YFTabBarController */,
+				3C2B11C4205A0D7A002C2DDF /* YFTabBarControllerTests */,
+				3C2B11CF205A0D7A002C2DDF /* YFTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C2B11AF205A0D79002C2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B11BF205A0D7A002C2DDF /* LaunchScreen.storyboard in Resources */,
+				3C2B11BC205A0D7A002C2DDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11C3205A0D7A002C2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11CE205A0D7A002C2DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2B11AD205A0D79002C2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B11E9205A1207002C2DDF /* OneViewController.swift in Sources */,
+				3C2B11E7205A0E70002C2DDF /* YFTabBarController.swift in Sources */,
+				3C2B11EF205A1249002C2DDF /* FourViewController.swift in Sources */,
+				3C2B11F6205A1B37002C2DDF /* CenterViewController.swift in Sources */,
+				3C2B11F1205A1508002C2DDF /* YFNavigationController.swift in Sources */,
+				3C2B11F4205A199C002C2DDF /* YFTabBar.swift in Sources */,
+				3C2B11B5205A0D7A002C2DDF /* AppDelegate.swift in Sources */,
+				3C2B11EB205A1232002C2DDF /* TwoViewController.swift in Sources */,
+				3C2B11ED205A1241002C2DDF /* ThreeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11C1205A0D7A002C2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B11CA205A0D7A002C2DDF /* YFTabBarControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C2B11CC205A0D7A002C2DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C2B11D5205A0D7A002C2DDF /* YFTabBarControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C2B11C7205A0D7A002C2DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2B11B0205A0D79002C2DDF /* YFTabBarController */;
+			targetProxy = 3C2B11C6205A0D7A002C2DDF /* PBXContainerItemProxy */;
+		};
+		3C2B11D2205A0D7A002C2DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2B11B0205A0D79002C2DDF /* YFTabBarController */;
+			targetProxy = 3C2B11D1205A0D7A002C2DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C2B11BD205A0D7A002C2DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C2B11BE205A0D7A002C2DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C2B11D7205A0D7A002C2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C2B11D8205A0D7A002C2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C2B11DA205A0D7A002C2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C2B11DB205A0D7A002C2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C2B11DD205A0D7A002C2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFTabBarController.app/YFTabBarController";
+			};
+			name = Debug;
+		};
+		3C2B11DE205A0D7A002C2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFTabBarController.app/YFTabBarController";
+			};
+			name = Release;
+		};
+		3C2B11E0205A0D7A002C2DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YFTabBarController;
+			};
+			name = Debug;
+		};
+		3C2B11E1205A0D7A002C2DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z55FN6W3PH;
+				INFOPLIST_FILE = YFTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.edu.cn.YFTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YFTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C2B11AC205A0D79002C2DDF /* Build configuration list for PBXProject "YFTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2B11D7205A0D7A002C2DDF /* Debug */,
+				3C2B11D8205A0D7A002C2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2B11D9205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2B11DA205A0D7A002C2DDF /* Debug */,
+				3C2B11DB205A0D7A002C2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2B11DC205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2B11DD205A0D7A002C2DDF /* Debug */,
+				3C2B11DE205A0D7A002C2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C2B11DF205A0D7A002C2DDF /* Build configuration list for PBXNativeTarget "YFTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C2B11E0205A0D7A002C2DDF /* Debug */,
+				3C2B11E1205A0D7A002C2DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C2B11A9205A0D79002C2DDF /* Project object */;
+}

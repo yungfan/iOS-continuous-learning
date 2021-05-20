@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C499EBF24B3068300F8504F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C499EBE24B3068300F8504F /* AppDelegate.swift */; };
+		3C499EC124B3068300F8504F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C499EC024B3068300F8504F /* SceneDelegate.swift */; };
+		3C499EC324B3068300F8504F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C499EC224B3068300F8504F /* ViewController.swift */; };
+		3C499EC624B3068300F8504F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C499EC424B3068300F8504F /* Main.storyboard */; };
+		3C499EC824B3068400F8504F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C499EC724B3068400F8504F /* Assets.xcassets */; };
+		3C499ECB24B3068400F8504F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C499EC924B3068400F8504F /* LaunchScreen.storyboard */; };
+		3C499ED624B3068400F8504F /* UIColorWell__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C499ED524B3068400F8504F /* UIColorWell__Tests.swift */; };
+		3C499EE124B3068400F8504F /* UIColorWell__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C499EE024B3068400F8504F /* UIColorWell__UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C499ED224B3068400F8504F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C499EB324B3068300F8504F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C499EBA24B3068300F8504F;
+			remoteInfo = "UIColorWell案例";
+		};
+		3C499EDD24B3068400F8504F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C499EB324B3068300F8504F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C499EBA24B3068300F8504F;
+			remoteInfo = "UIColorWell案例";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C499EBB24B3068300F8504F /* UIColorWell案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColorWell案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C499EBE24B3068300F8504F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C499EC024B3068300F8504F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C499EC224B3068300F8504F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C499EC524B3068300F8504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C499EC724B3068400F8504F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C499ECA24B3068400F8504F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C499ECC24B3068400F8504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C499ED124B3068400F8504F /* UIColorWell案例Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColorWell案例Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C499ED524B3068400F8504F /* UIColorWell__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorWell__Tests.swift; sourceTree = "<group>"; };
+		3C499ED724B3068400F8504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C499EDC24B3068400F8504F /* UIColorWell案例UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColorWell案例UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C499EE024B3068400F8504F /* UIColorWell__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorWell__UITests.swift; sourceTree = "<group>"; };
+		3C499EE224B3068400F8504F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C499EB824B3068300F8504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499ECE24B3068400F8504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499ED924B3068400F8504F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C499EB224B3068300F8504F = {
+			isa = PBXGroup;
+			children = (
+				3C499EBD24B3068300F8504F /* UIColorWell案例 */,
+				3C499ED424B3068400F8504F /* UIColorWell案例Tests */,
+				3C499EDF24B3068400F8504F /* UIColorWell案例UITests */,
+				3C499EBC24B3068300F8504F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C499EBC24B3068300F8504F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C499EBB24B3068300F8504F /* UIColorWell案例.app */,
+				3C499ED124B3068400F8504F /* UIColorWell案例Tests.xctest */,
+				3C499EDC24B3068400F8504F /* UIColorWell案例UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C499EBD24B3068300F8504F /* UIColorWell案例 */ = {
+			isa = PBXGroup;
+			children = (
+				3C499EBE24B3068300F8504F /* AppDelegate.swift */,
+				3C499EC024B3068300F8504F /* SceneDelegate.swift */,
+				3C499EC224B3068300F8504F /* ViewController.swift */,
+				3C499EC424B3068300F8504F /* Main.storyboard */,
+				3C499EC724B3068400F8504F /* Assets.xcassets */,
+				3C499EC924B3068400F8504F /* LaunchScreen.storyboard */,
+				3C499ECC24B3068400F8504F /* Info.plist */,
+			);
+			path = "UIColorWell案例";
+			sourceTree = "<group>";
+		};
+		3C499ED424B3068400F8504F /* UIColorWell案例Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C499ED524B3068400F8504F /* UIColorWell__Tests.swift */,
+				3C499ED724B3068400F8504F /* Info.plist */,
+			);
+			path = "UIColorWell案例Tests";
+			sourceTree = "<group>";
+		};
+		3C499EDF24B3068400F8504F /* UIColorWell案例UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C499EE024B3068400F8504F /* UIColorWell__UITests.swift */,
+				3C499EE224B3068400F8504F /* Info.plist */,
+			);
+			path = "UIColorWell案例UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C499EBA24B3068300F8504F /* UIColorWell案例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C499EE524B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例" */;
+			buildPhases = (
+				3C499EB724B3068300F8504F /* Sources */,
+				3C499EB824B3068300F8504F /* Frameworks */,
+				3C499EB924B3068300F8504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIColorWell案例";
+			productName = "UIColorWell案例";
+			productReference = 3C499EBB24B3068300F8504F /* UIColorWell案例.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C499ED024B3068400F8504F /* UIColorWell案例Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C499EE824B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例Tests" */;
+			buildPhases = (
+				3C499ECD24B3068400F8504F /* Sources */,
+				3C499ECE24B3068400F8504F /* Frameworks */,
+				3C499ECF24B3068400F8504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C499ED324B3068400F8504F /* PBXTargetDependency */,
+			);
+			name = "UIColorWell案例Tests";
+			productName = "UIColorWell案例Tests";
+			productReference = 3C499ED124B3068400F8504F /* UIColorWell案例Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C499EDB24B3068400F8504F /* UIColorWell案例UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C499EEB24B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例UITests" */;
+			buildPhases = (
+				3C499ED824B3068400F8504F /* Sources */,
+				3C499ED924B3068400F8504F /* Frameworks */,
+				3C499EDA24B3068400F8504F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C499EDE24B3068400F8504F /* PBXTargetDependency */,
+			);
+			name = "UIColorWell案例UITests";
+			productName = "UIColorWell案例UITests";
+			productReference = 3C499EDC24B3068400F8504F /* UIColorWell案例UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C499EB324B3068300F8504F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3C499EBA24B3068300F8504F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3C499ED024B3068400F8504F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3C499EBA24B3068300F8504F;
+					};
+					3C499EDB24B3068400F8504F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3C499EBA24B3068300F8504F;
+					};
+				};
+			};
+			buildConfigurationList = 3C499EB624B3068300F8504F /* Build configuration list for PBXProject "UIColorWell案例" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C499EB224B3068300F8504F;
+			productRefGroup = 3C499EBC24B3068300F8504F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C499EBA24B3068300F8504F /* UIColorWell案例 */,
+				3C499ED024B3068400F8504F /* UIColorWell案例Tests */,
+				3C499EDB24B3068400F8504F /* UIColorWell案例UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C499EB924B3068300F8504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C499ECB24B3068400F8504F /* LaunchScreen.storyboard in Resources */,
+				3C499EC824B3068400F8504F /* Assets.xcassets in Resources */,
+				3C499EC624B3068300F8504F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499ECF24B3068400F8504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499EDA24B3068400F8504F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C499EB724B3068300F8504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C499EC324B3068300F8504F /* ViewController.swift in Sources */,
+				3C499EBF24B3068300F8504F /* AppDelegate.swift in Sources */,
+				3C499EC124B3068300F8504F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499ECD24B3068400F8504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C499ED624B3068400F8504F /* UIColorWell__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C499ED824B3068400F8504F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C499EE124B3068400F8504F /* UIColorWell__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C499ED324B3068400F8504F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C499EBA24B3068300F8504F /* UIColorWell案例 */;
+			targetProxy = 3C499ED224B3068400F8504F /* PBXContainerItemProxy */;
+		};
+		3C499EDE24B3068400F8504F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C499EBA24B3068300F8504F /* UIColorWell案例 */;
+			targetProxy = 3C499EDD24B3068400F8504F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C499EC424B3068300F8504F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C499EC524B3068300F8504F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C499EC924B3068400F8504F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C499ECA24B3068400F8504F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C499EE324B3068400F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C499EE424B3068400F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C499EE624B3068400F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C499EE724B3068400F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C499EE924B3068400F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColorWell案例.app/UIColorWell案例";
+			};
+			name = Debug;
+		};
+		3C499EEA24B3068400F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIColorWell案例.app/UIColorWell案例";
+			};
+			name = Release;
+		};
+		3C499EEC24B3068400F8504F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIColorWell案例";
+			};
+			name = Debug;
+		};
+		3C499EED24B3068400F8504F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = "UIColorWell案例UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.abc.yf.UIColorWell--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIColorWell案例";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C499EB624B3068300F8504F /* Build configuration list for PBXProject "UIColorWell案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C499EE324B3068400F8504F /* Debug */,
+				3C499EE424B3068400F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C499EE524B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C499EE624B3068400F8504F /* Debug */,
+				3C499EE724B3068400F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C499EE824B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C499EE924B3068400F8504F /* Debug */,
+				3C499EEA24B3068400F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C499EEB24B3068400F8504F /* Build configuration list for PBXNativeTarget "UIColorWell案例UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C499EEC24B3068400F8504F /* Debug */,
+				3C499EED24B3068400F8504F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C499EB324B3068300F8504F /* Project object */;
+}

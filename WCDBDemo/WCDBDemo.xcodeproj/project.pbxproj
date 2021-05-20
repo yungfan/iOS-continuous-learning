@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CCED19F25BD965A0003F3BF /* WCTSampleFTSData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CCED19E25BD965A0003F3BF /* WCTSampleFTSData.mm */; };
+		440FDA3130C530760D9CBAF2 /* Pods_WCDBDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAA897F1C546C756586CD99 /* Pods_WCDBDemo.framework */; };
+		BDB93012206F595400F4E5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB93011206F595400F4E5FB /* AppDelegate.m */; };
+		BDB93018206F595400F4E5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB93016206F595400F4E5FB /* Main.storyboard */; };
+		BDB9301A206F595400F4E5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB93019206F595400F4E5FB /* Assets.xcassets */; };
+		BDB9301D206F595400F4E5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB9301B206F595400F4E5FB /* LaunchScreen.storyboard */; };
+		BDB93020206F595400F4E5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB9301F206F595400F4E5FB /* main.m */; };
+		BDB93035206F743000F4E5FB /* Message.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDB93032206F742F00F4E5FB /* Message.mm */; };
+		BDB93038206F75D500F4E5FB /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDB93037206F75D500F4E5FB /* ViewController.mm */; };
+		BDB930422073A10900F4E5FB /* TestModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDB930412073A10800F4E5FB /* TestModel.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CCED19D25BD965A0003F3BF /* WCTSampleFTSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCTSampleFTSData.h; sourceTree = "<group>"; };
+		3CCED19E25BD965A0003F3BF /* WCTSampleFTSData.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WCTSampleFTSData.mm; sourceTree = "<group>"; };
+		3CCED1A225BD96C80003F3BF /* WCTSampleFTSData+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCTSampleFTSData+WCTTableCoding.h"; sourceTree = "<group>"; };
+		9481E44FE3436ADF2A35C4E4 /* Pods-WCDBDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCDBDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCDBDemo/Pods-WCDBDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BDB9300D206F595400F4E5FB /* WCDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB93010206F595400F4E5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDB93011206F595400F4E5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDB93013206F595400F4E5FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDB93017206F595400F4E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB93019206F595400F4E5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB9301C206F595400F4E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB9301E206F595400F4E5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB9301F206F595400F4E5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDB93032206F742F00F4E5FB /* Message.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Message.mm; sourceTree = "<group>"; };
+		BDB93033206F743000F4E5FB /* Message+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Message+WCTTableCoding.h"; sourceTree = "<group>"; };
+		BDB93034206F743000F4E5FB /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		BDB93037206F75D500F4E5FB /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		BDB9303F2073A10800F4E5FB /* TestModel+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestModel+WCTTableCoding.h"; sourceTree = "<group>"; };
+		BDB930402073A10800F4E5FB /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		BDB930412073A10800F4E5FB /* TestModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestModel.mm; sourceTree = "<group>"; };
+		F9B737328828C812B4608150 /* Pods-WCDBDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCDBDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCDBDemo/Pods-WCDBDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAA897F1C546C756586CD99 /* Pods_WCDBDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCDBDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB9300A206F595400F4E5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440FDA3130C530760D9CBAF2 /* Pods_WCDBDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CCED1B025BD9C3E0003F3BF /* FTS */ = {
+			isa = PBXGroup;
+			children = (
+				3CCED19D25BD965A0003F3BF /* WCTSampleFTSData.h */,
+				3CCED1A225BD96C80003F3BF /* WCTSampleFTSData+WCTTableCoding.h */,
+				3CCED19E25BD965A0003F3BF /* WCTSampleFTSData.mm */,
+			);
+			path = FTS;
+			sourceTree = "<group>";
+		};
+		52CF2E93993000C18E9BA487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA897F1C546C756586CD99 /* Pods_WCDBDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CFB0DF47FCA35533C6DC93E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9B737328828C812B4608150 /* Pods-WCDBDemo.debug.xcconfig */,
+				9481E44FE3436ADF2A35C4E4 /* Pods-WCDBDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDB93004206F595400F4E5FB = {
+			isa = PBXGroup;
+			children = (
+				BDB9300F206F595400F4E5FB /* WCDBDemo */,
+				BDB9300E206F595400F4E5FB /* Products */,
+				6CFB0DF47FCA35533C6DC93E /* Pods */,
+				52CF2E93993000C18E9BA487 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB9300E206F595400F4E5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9300D206F595400F4E5FB /* WCDBDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB9300F206F595400F4E5FB /* WCDBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDB93010206F595400F4E5FB /* AppDelegate.h */,
+				BDB93011206F595400F4E5FB /* AppDelegate.m */,
+				BDB93013206F595400F4E5FB /* ViewController.h */,
+				BDB93037206F75D500F4E5FB /* ViewController.mm */,
+				BDB93027206F631800F4E5FB /* Model */,
+				3CCED1B025BD9C3E0003F3BF /* FTS */,
+				BDB93019206F595400F4E5FB /* Assets.xcassets */,
+				BDB93016206F595400F4E5FB /* Main.storyboard */,
+				BDB9301B206F595400F4E5FB /* LaunchScreen.storyboard */,
+				BDB9301E206F595400F4E5FB /* Info.plist */,
+				BDB9301F206F595400F4E5FB /* main.m */,
+			);
+			path = WCDBDemo;
+			sourceTree = "<group>";
+		};
+		BDB93027206F631800F4E5FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDB93034206F743000F4E5FB /* Message.h */,
+				BDB93032206F742F00F4E5FB /* Message.mm */,
+				BDB93033206F743000F4E5FB /* Message+WCTTableCoding.h */,
+				BDB9303F2073A10800F4E5FB /* TestModel+WCTTableCoding.h */,
+				BDB930402073A10800F4E5FB /* TestModel.h */,
+				BDB930412073A10800F4E5FB /* TestModel.mm */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB9300C206F595400F4E5FB /* WCDBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB93023206F595400F4E5FB /* Build configuration list for PBXNativeTarget "WCDBDemo" */;
+			buildPhases = (
+				27EE50BDDD0B8A7227392C67 /* [CP] Check Pods Manifest.lock */,
+				BDB93009206F595400F4E5FB /* Sources */,
+				BDB9300A206F595400F4E5FB /* Frameworks */,
+				BDB9300B206F595400F4E5FB /* Resources */,
+				577E2C1C0CE80DDB415F33FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCDBDemo;
+			productName = WCDBDemo;
+			productReference = BDB9300D206F595400F4E5FB /* WCDBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB93005206F595400F4E5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = JackLee;
+				TargetAttributes = {
+					BDB9300C206F595400F4E5FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDB93008206F595400F4E5FB /* Build configuration list for PBXProject "WCDBDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB93004206F595400F4E5FB;
+			productRefGroup = BDB9300E206F595400F4E5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB9300C206F595400F4E5FB /* WCDBDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB9300B206F595400F4E5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB9301D206F595400F4E5FB /* LaunchScreen.storyboard in Resources */,
+				BDB9301A206F595400F4E5FB /* Assets.xcassets in Resources */,
+				BDB93018206F595400F4E5FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27EE50BDDD0B8A7227392C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCDBDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577E2C1C0CE80DDB415F33FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WCDBDemo/Pods-WCDBDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WCDBDemo/Pods-WCDBDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB93009206F595400F4E5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCED19F25BD965A0003F3BF /* WCTSampleFTSData.mm in Sources */,
+				BDB93038206F75D500F4E5FB /* ViewController.mm in Sources */,
+				BDB93020206F595400F4E5FB /* main.m in Sources */,
+				BDB93012206F595400F4E5FB /* AppDelegate.m in Sources */,
+				BDB930422073A10900F4E5FB /* TestModel.mm in Sources */,
+				BDB93035206F743000F4E5FB /* Message.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDB93016206F595400F4E5FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB93017206F595400F4E5FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB9301B206F595400F4E5FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB9301C206F595400F4E5FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB93021206F595400F4E5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDB93022206F595400F4E5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB93024206F595400F4E5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B737328828C812B4608150 /* Pods-WCDBDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = WCDBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.WCDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB93025206F595400F4E5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9481E44FE3436ADF2A35C4E4 /* Pods-WCDBDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				INFOPLIST_FILE = WCDBDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.WCDBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB93008206F595400F4E5FB /* Build configuration list for PBXProject "WCDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB93021206F595400F4E5FB /* Debug */,
+				BDB93022206F595400F4E5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB93023206F595400F4E5FB /* Build configuration list for PBXNativeTarget "WCDBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB93024206F595400F4E5FB /* Debug */,
+				BDB93025206F595400F4E5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB93005206F595400F4E5FB /* Project object */;
+}

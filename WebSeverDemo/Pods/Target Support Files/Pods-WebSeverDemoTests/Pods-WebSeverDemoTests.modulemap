@@ -1,0 +1,6 @@
+framework module Pods_WebSeverDemoTests {
+  umbrella header "Pods-WebSeverDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

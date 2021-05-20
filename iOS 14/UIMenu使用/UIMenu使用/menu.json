@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Favorite",
+        "icon": "heart.fill"
+    },
+    {
+        "title": "Share",
+        "icon": "square.and.arrow.up.fill"
+    },
+    {
+        "title": "Delete",
+        "icon": "trash.fill"
+    }
+]

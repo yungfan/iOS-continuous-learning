@@ -1,0 +1,6 @@
+framework module Pods_LottieView___LottieView__UITests {
+  umbrella header "Pods-LottieView使用-LottieView使用UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

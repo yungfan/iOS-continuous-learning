@@ -1,0 +1,6 @@
+framework module Pods_3D___Tests {
+  umbrella header "Pods-3D 全景Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

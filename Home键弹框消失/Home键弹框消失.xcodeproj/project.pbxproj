@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4A7D7E212EB702004A3ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7D7D212EB702004A3ED6 /* AppDelegate.m */; };
+		3C4A7D81212EB702004A3ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7D80212EB702004A3ED6 /* ViewController.m */; };
+		3C4A7D84212EB702004A3ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A7D82212EB702004A3ED6 /* Main.storyboard */; };
+		3C4A7D86212EB703004A3ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A7D85212EB703004A3ED6 /* Assets.xcassets */; };
+		3C4A7D89212EB703004A3ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A7D87212EB703004A3ED6 /* LaunchScreen.storyboard */; };
+		3C4A7D8C212EB703004A3ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7D8B212EB703004A3ED6 /* main.m */; };
+		3C4A7D96212EB703004A3ED6 /* Home_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7D95212EB703004A3ED6 /* Home_____Tests.m */; };
+		3C4A7DA1212EB703004A3ED6 /* Home_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A7DA0212EB703004A3ED6 /* Home_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C4A7D92212EB703004A3ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4A7D71212EB702004A3ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4A7D78212EB702004A3ED6;
+			remoteInfo = "Home键弹框消失";
+		};
+		3C4A7D9D212EB703004A3ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C4A7D71212EB702004A3ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C4A7D78212EB702004A3ED6;
+			remoteInfo = "Home键弹框消失";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C4A7D79212EB702004A3ED6 /* Home键弹框消失.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home键弹框消失.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4A7D7C212EB702004A3ED6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C4A7D7D212EB702004A3ED6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C4A7D7F212EB702004A3ED6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C4A7D80212EB702004A3ED6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C4A7D83212EB702004A3ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C4A7D85212EB703004A3ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C4A7D88212EB703004A3ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C4A7D8A212EB703004A3ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4A7D8B212EB703004A3ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C4A7D91212EB703004A3ED6 /* Home键弹框消失Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home键弹框消失Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4A7D95212EB703004A3ED6 /* Home_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Home_____Tests.m"; sourceTree = "<group>"; };
+		3C4A7D97212EB703004A3ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4A7D9C212EB703004A3ED6 /* Home键弹框消失UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home键弹框消失UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4A7DA0212EB703004A3ED6 /* Home_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Home_____UITests.m"; sourceTree = "<group>"; };
+		3C4A7DA2212EB703004A3ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C4A7D76212EB702004A3ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D8E212EB703004A3ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D99212EB703004A3ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C4A7D70212EB702004A3ED6 = {
+			isa = PBXGroup;
+			children = (
+				3C4A7D7B212EB702004A3ED6 /* Home键弹框消失 */,
+				3C4A7D94212EB703004A3ED6 /* Home键弹框消失Tests */,
+				3C4A7D9F212EB703004A3ED6 /* Home键弹框消失UITests */,
+				3C4A7D7A212EB702004A3ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C4A7D7A212EB702004A3ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C4A7D79212EB702004A3ED6 /* Home键弹框消失.app */,
+				3C4A7D91212EB703004A3ED6 /* Home键弹框消失Tests.xctest */,
+				3C4A7D9C212EB703004A3ED6 /* Home键弹框消失UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4A7D7B212EB702004A3ED6 /* Home键弹框消失 */ = {
+			isa = PBXGroup;
+			children = (
+				3C4A7D7C212EB702004A3ED6 /* AppDelegate.h */,
+				3C4A7D7D212EB702004A3ED6 /* AppDelegate.m */,
+				3C4A7D7F212EB702004A3ED6 /* ViewController.h */,
+				3C4A7D80212EB702004A3ED6 /* ViewController.m */,
+				3C4A7D82212EB702004A3ED6 /* Main.storyboard */,
+				3C4A7D85212EB703004A3ED6 /* Assets.xcassets */,
+				3C4A7D87212EB703004A3ED6 /* LaunchScreen.storyboard */,
+				3C4A7D8A212EB703004A3ED6 /* Info.plist */,
+				3C4A7D8B212EB703004A3ED6 /* main.m */,
+			);
+			path = "Home键弹框消失";
+			sourceTree = "<group>";
+		};
+		3C4A7D94212EB703004A3ED6 /* Home键弹框消失Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4A7D95212EB703004A3ED6 /* Home_____Tests.m */,
+				3C4A7D97212EB703004A3ED6 /* Info.plist */,
+			);
+			path = "Home键弹框消失Tests";
+			sourceTree = "<group>";
+		};
+		3C4A7D9F212EB703004A3ED6 /* Home键弹框消失UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C4A7DA0212EB703004A3ED6 /* Home_____UITests.m */,
+				3C4A7DA2212EB703004A3ED6 /* Info.plist */,
+			);
+			path = "Home键弹框消失UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C4A7D78212EB702004A3ED6 /* Home键弹框消失 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4A7DA5212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失" */;
+			buildPhases = (
+				3C4A7D75212EB702004A3ED6 /* Sources */,
+				3C4A7D76212EB702004A3ED6 /* Frameworks */,
+				3C4A7D77212EB702004A3ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home键弹框消失";
+			productName = "Home键弹框消失";
+			productReference = 3C4A7D79212EB702004A3ED6 /* Home键弹框消失.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C4A7D90212EB703004A3ED6 /* Home键弹框消失Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4A7DA8212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失Tests" */;
+			buildPhases = (
+				3C4A7D8D212EB703004A3ED6 /* Sources */,
+				3C4A7D8E212EB703004A3ED6 /* Frameworks */,
+				3C4A7D8F212EB703004A3ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4A7D93212EB703004A3ED6 /* PBXTargetDependency */,
+			);
+			name = "Home键弹框消失Tests";
+			productName = "Home键弹框消失Tests";
+			productReference = 3C4A7D91212EB703004A3ED6 /* Home键弹框消失Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C4A7D9B212EB703004A3ED6 /* Home键弹框消失UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4A7DAB212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失UITests" */;
+			buildPhases = (
+				3C4A7D98212EB703004A3ED6 /* Sources */,
+				3C4A7D99212EB703004A3ED6 /* Frameworks */,
+				3C4A7D9A212EB703004A3ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C4A7D9E212EB703004A3ED6 /* PBXTargetDependency */,
+			);
+			name = "Home键弹框消失UITests";
+			productName = "Home键弹框消失UITests";
+			productReference = 3C4A7D9C212EB703004A3ED6 /* Home键弹框消失UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C4A7D71212EB702004A3ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "杨帆";
+				TargetAttributes = {
+					3C4A7D78212EB702004A3ED6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3C4A7D90212EB703004A3ED6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C4A7D78212EB702004A3ED6;
+					};
+					3C4A7D9B212EB703004A3ED6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3C4A7D78212EB702004A3ED6;
+					};
+				};
+			};
+			buildConfigurationList = 3C4A7D74212EB702004A3ED6 /* Build configuration list for PBXProject "Home键弹框消失" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C4A7D70212EB702004A3ED6;
+			productRefGroup = 3C4A7D7A212EB702004A3ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C4A7D78212EB702004A3ED6 /* Home键弹框消失 */,
+				3C4A7D90212EB703004A3ED6 /* Home键弹框消失Tests */,
+				3C4A7D9B212EB703004A3ED6 /* Home键弹框消失UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C4A7D77212EB702004A3ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4A7D89212EB703004A3ED6 /* LaunchScreen.storyboard in Resources */,
+				3C4A7D86212EB703004A3ED6 /* Assets.xcassets in Resources */,
+				3C4A7D84212EB702004A3ED6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D8F212EB703004A3ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D9A212EB703004A3ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C4A7D75212EB702004A3ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4A7D81212EB702004A3ED6 /* ViewController.m in Sources */,
+				3C4A7D8C212EB703004A3ED6 /* main.m in Sources */,
+				3C4A7D7E212EB702004A3ED6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D8D212EB703004A3ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4A7D96212EB703004A3ED6 /* Home_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4A7D98212EB703004A3ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4A7DA1212EB703004A3ED6 /* Home_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C4A7D93212EB703004A3ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4A7D78212EB702004A3ED6 /* Home键弹框消失 */;
+			targetProxy = 3C4A7D92212EB703004A3ED6 /* PBXContainerItemProxy */;
+		};
+		3C4A7D9E212EB703004A3ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C4A7D78212EB702004A3ED6 /* Home键弹框消失 */;
+			targetProxy = 3C4A7D9D212EB703004A3ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C4A7D82212EB702004A3ED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4A7D83212EB702004A3ED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C4A7D87212EB703004A3ED6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C4A7D88212EB703004A3ED6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C4A7DA3212EB703004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C4A7DA4212EB703004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C4A7DA6212EB703004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C4A7DA7212EB703004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C4A7DA9212EB703004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home键弹框消失.app/Home键弹框消失";
+			};
+			name = Debug;
+		};
+		3C4A7DAA212EB703004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home键弹框消失.app/Home键弹框消失";
+			};
+			name = Release;
+		};
+		3C4A7DAC212EB703004A3ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home键弹框消失";
+			};
+			name = Debug;
+		};
+		3C4A7DAD212EB703004A3ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Home键弹框消失UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.yf.Home-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Home键弹框消失";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C4A7D74212EB702004A3ED6 /* Build configuration list for PBXProject "Home键弹框消失" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4A7DA3212EB703004A3ED6 /* Debug */,
+				3C4A7DA4212EB703004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4A7DA5212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4A7DA6212EB703004A3ED6 /* Debug */,
+				3C4A7DA7212EB703004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4A7DA8212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4A7DA9212EB703004A3ED6 /* Debug */,
+				3C4A7DAA212EB703004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4A7DAB212EB703004A3ED6 /* Build configuration list for PBXNativeTarget "Home键弹框消失UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C4A7DAC212EB703004A3ED6 /* Debug */,
+				3C4A7DAD212EB703004A3ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C4A7D71212EB702004A3ED6 /* Project object */;
+}
