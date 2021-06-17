@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C3F984B267B74A600B0C109 /* abc.edu.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 3C3F984A267B74A600B0C109 /* abc.edu.gpx */; };
+		3CE7E04D2671D59900F4DDC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E04C2671D59900F4DDC3 /* AppDelegate.swift */; };
+		3CE7E04F2671D59900F4DDC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E04E2671D59900F4DDC3 /* SceneDelegate.swift */; };
+		3CE7E0512671D59900F4DDC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E0502671D59900F4DDC3 /* ViewController.swift */; };
+		3CE7E0542671D59900F4DDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E0522671D59900F4DDC3 /* Main.storyboard */; };
+		3CE7E0562671D59A00F4DDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E0552671D59A00F4DDC3 /* Assets.xcassets */; };
+		3CE7E0592671D59A00F4DDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE7E0572671D59A00F4DDC3 /* LaunchScreen.storyboard */; };
+		3CE7E0642671D59A00F4DDC3 /* _4_CLLocationButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E0632671D59A00F4DDC3 /* _4_CLLocationButtonTests.swift */; };
+		3CE7E06E2671D59A00F4DDC3 /* _4_CLLocationButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7E06D2671D59A00F4DDC3 /* _4_CLLocationButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CE7E0602671D59A00F4DDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE7E0412671D59900F4DDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE7E0482671D59900F4DDC3;
+			remoteInfo = "04-CLLocationButton";
+		};
+		3CE7E06A2671D59A00F4DDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CE7E0412671D59900F4DDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE7E0482671D59900F4DDC3;
+			remoteInfo = "04-CLLocationButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C3F984A267B74A600B0C109 /* abc.edu.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = abc.edu.gpx; sourceTree = "<group>"; };
+		3CE7E0492671D59900F4DDC3 /* 04-CLLocationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-CLLocationButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7E04C2671D59900F4DDC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CE7E04E2671D59900F4DDC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CE7E0502671D59900F4DDC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CE7E0532671D59900F4DDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CE7E0552671D59A00F4DDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE7E0582671D59A00F4DDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CE7E05A2671D59A00F4DDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE7E05F2671D59A00F4DDC3 /* 04-CLLocationButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-CLLocationButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7E0632671D59A00F4DDC3 /* _4_CLLocationButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_CLLocationButtonTests.swift; sourceTree = "<group>"; };
+		3CE7E0692671D59A00F4DDC3 /* 04-CLLocationButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-CLLocationButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE7E06D2671D59A00F4DDC3 /* _4_CLLocationButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_CLLocationButtonUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE7E0462671D59900F4DDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E05C2671D59A00F4DDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E0662671D59A00F4DDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE7E0402671D59900F4DDC3 = {
+			isa = PBXGroup;
+			children = (
+				3CE7E04B2671D59900F4DDC3 /* 04-CLLocationButton */,
+				3CE7E0622671D59A00F4DDC3 /* 04-CLLocationButtonTests */,
+				3CE7E06C2671D59A00F4DDC3 /* 04-CLLocationButtonUITests */,
+				3CE7E04A2671D59900F4DDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE7E04A2671D59900F4DDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7E0492671D59900F4DDC3 /* 04-CLLocationButton.app */,
+				3CE7E05F2671D59A00F4DDC3 /* 04-CLLocationButtonTests.xctest */,
+				3CE7E0692671D59A00F4DDC3 /* 04-CLLocationButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE7E04B2671D59900F4DDC3 /* 04-CLLocationButton */ = {
+			isa = PBXGroup;
+			children = (
+				3C3F984A267B74A600B0C109 /* abc.edu.gpx */,
+				3CE7E04C2671D59900F4DDC3 /* AppDelegate.swift */,
+				3CE7E04E2671D59900F4DDC3 /* SceneDelegate.swift */,
+				3CE7E0502671D59900F4DDC3 /* ViewController.swift */,
+				3CE7E0522671D59900F4DDC3 /* Main.storyboard */,
+				3CE7E0552671D59A00F4DDC3 /* Assets.xcassets */,
+				3CE7E0572671D59A00F4DDC3 /* LaunchScreen.storyboard */,
+				3CE7E05A2671D59A00F4DDC3 /* Info.plist */,
+			);
+			path = "04-CLLocationButton";
+			sourceTree = "<group>";
+		};
+		3CE7E0622671D59A00F4DDC3 /* 04-CLLocationButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7E0632671D59A00F4DDC3 /* _4_CLLocationButtonTests.swift */,
+			);
+			path = "04-CLLocationButtonTests";
+			sourceTree = "<group>";
+		};
+		3CE7E06C2671D59A00F4DDC3 /* 04-CLLocationButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CE7E06D2671D59A00F4DDC3 /* _4_CLLocationButtonUITests.swift */,
+			);
+			path = "04-CLLocationButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE7E0482671D59900F4DDC3 /* 04-CLLocationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7E0712671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButton" */;
+			buildPhases = (
+				3CE7E0452671D59900F4DDC3 /* Sources */,
+				3CE7E0462671D59900F4DDC3 /* Frameworks */,
+				3CE7E0472671D59900F4DDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-CLLocationButton";
+			productName = "04-CLLocationButton";
+			productReference = 3CE7E0492671D59900F4DDC3 /* 04-CLLocationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CE7E05E2671D59A00F4DDC3 /* 04-CLLocationButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7E0742671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButtonTests" */;
+			buildPhases = (
+				3CE7E05B2671D59A00F4DDC3 /* Sources */,
+				3CE7E05C2671D59A00F4DDC3 /* Frameworks */,
+				3CE7E05D2671D59A00F4DDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE7E0612671D59A00F4DDC3 /* PBXTargetDependency */,
+			);
+			name = "04-CLLocationButtonTests";
+			productName = "04-CLLocationButtonTests";
+			productReference = 3CE7E05F2671D59A00F4DDC3 /* 04-CLLocationButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CE7E0682671D59A00F4DDC3 /* 04-CLLocationButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE7E0772671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButtonUITests" */;
+			buildPhases = (
+				3CE7E0652671D59A00F4DDC3 /* Sources */,
+				3CE7E0662671D59A00F4DDC3 /* Frameworks */,
+				3CE7E0672671D59A00F4DDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CE7E06B2671D59A00F4DDC3 /* PBXTargetDependency */,
+			);
+			name = "04-CLLocationButtonUITests";
+			productName = "04-CLLocationButtonUITests";
+			productReference = 3CE7E0692671D59A00F4DDC3 /* 04-CLLocationButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE7E0412671D59900F4DDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3CE7E0482671D59900F4DDC3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3CE7E05E2671D59A00F4DDC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CE7E0482671D59900F4DDC3;
+					};
+					3CE7E0682671D59A00F4DDC3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CE7E0482671D59900F4DDC3;
+					};
+				};
+			};
+			buildConfigurationList = 3CE7E0442671D59900F4DDC3 /* Build configuration list for PBXProject "04-CLLocationButton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE7E0402671D59900F4DDC3;
+			productRefGroup = 3CE7E04A2671D59900F4DDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE7E0482671D59900F4DDC3 /* 04-CLLocationButton */,
+				3CE7E05E2671D59A00F4DDC3 /* 04-CLLocationButtonTests */,
+				3CE7E0682671D59A00F4DDC3 /* 04-CLLocationButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE7E0472671D59900F4DDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7E0592671D59A00F4DDC3 /* LaunchScreen.storyboard in Resources */,
+				3CE7E0562671D59A00F4DDC3 /* Assets.xcassets in Resources */,
+				3C3F984B267B74A600B0C109 /* abc.edu.gpx in Resources */,
+				3CE7E0542671D59900F4DDC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E05D2671D59A00F4DDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E0672671D59A00F4DDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE7E0452671D59900F4DDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7E0512671D59900F4DDC3 /* ViewController.swift in Sources */,
+				3CE7E04D2671D59900F4DDC3 /* AppDelegate.swift in Sources */,
+				3CE7E04F2671D59900F4DDC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E05B2671D59A00F4DDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7E0642671D59A00F4DDC3 /* _4_CLLocationButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CE7E0652671D59A00F4DDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE7E06E2671D59A00F4DDC3 /* _4_CLLocationButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CE7E0612671D59A00F4DDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE7E0482671D59900F4DDC3 /* 04-CLLocationButton */;
+			targetProxy = 3CE7E0602671D59A00F4DDC3 /* PBXContainerItemProxy */;
+		};
+		3CE7E06B2671D59A00F4DDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CE7E0482671D59900F4DDC3 /* 04-CLLocationButton */;
+			targetProxy = 3CE7E06A2671D59A00F4DDC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CE7E0522671D59900F4DDC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE7E0532671D59900F4DDC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CE7E0572671D59A00F4DDC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CE7E0582671D59A00F4DDC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CE7E06F2671D59A00F4DDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE7E0702671D59A00F4DDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CE7E0722671D59A00F4DDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "04-CLLocationButton/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CE7E0732671D59A00F4DDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "04-CLLocationButton/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CE7E0752671D59A00F4DDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-CLLocationButton.app/04-CLLocationButton";
+			};
+			name = Debug;
+		};
+		3CE7E0762671D59A00F4DDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-CLLocationButton.app/04-CLLocationButton";
+			};
+			name = Release;
+		};
+		3CE7E0782671D59A00F4DDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-CLLocationButton";
+			};
+			name = Debug;
+		};
+		3CE7E0792671D59A00F4DDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.abc.-4-CLLocationButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "04-CLLocationButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE7E0442671D59900F4DDC3 /* Build configuration list for PBXProject "04-CLLocationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7E06F2671D59A00F4DDC3 /* Debug */,
+				3CE7E0702671D59A00F4DDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7E0712671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7E0722671D59A00F4DDC3 /* Debug */,
+				3CE7E0732671D59A00F4DDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7E0742671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7E0752671D59A00F4DDC3 /* Debug */,
+				3CE7E0762671D59A00F4DDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE7E0772671D59A00F4DDC3 /* Build configuration list for PBXNativeTarget "04-CLLocationButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE7E0782671D59A00F4DDC3 /* Debug */,
+				3CE7E0792671D59A00F4DDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CE7E0412671D59900F4DDC3 /* Project object */;
+}
