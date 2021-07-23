@@ -21,10 +21,10 @@ class ViewController: UIViewController {
 
         view.addSubview(imageView)
 
-        // 1
+        // 1. preparingThumbnail
         let image = UIImage(named: "sv.png")?.preparingThumbnail(of: CGSize(width: 200, height: 100))
 
-        // 2
+        // 2. preparingThumbnail，闭包中直接获取调整后的UIImage
         UIImage(named: "sv.png")?.prepareThumbnail(of: CGSize(width: 200, height: 100)) { image in
             // 需要回到主线程
             DispatchQueue.main.async {
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             }
         }
 
-        // 3
+        // 3. 异步操作
         Task {
             await UIImage(named: "sv.png")?.byPreparingThumbnail(ofSize: CGSize(width: 100, height: 100))
         }

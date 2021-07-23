@@ -10,11 +10,13 @@ import UIKit
 class SecViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        setPresentationController()
     }
 
     func setPresentationController() {
         if let presentationController = presentationController as? UISheetPresentationController {
-            // 显示模式
+            // 支持的显示模式
             presentationController.detents = [.medium(), .large()]
             // 显示一个指示器表示可以拖拽调整大小
             presentationController.prefersGrabberVisible = true

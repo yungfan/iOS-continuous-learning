@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        second()
+        // 第一种使用方式，需要更改目标控制器的代码
+        first()
+        // 第二种使用方式，需要使用UIViewControllerTransitioningDelegate
+        // second()
     }
 
     func first() {
