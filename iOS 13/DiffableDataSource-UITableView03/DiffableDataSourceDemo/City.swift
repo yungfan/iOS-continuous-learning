@@ -9,9 +9,9 @@
 import UIKit
 
 struct City: Hashable {
-    let name: String
+    var name: String
     let identifier = UUID()
-    
+
     func contains(query: String?) -> Bool {
         guard let query = query else { return true }
         guard !query.isEmpty else { return true }

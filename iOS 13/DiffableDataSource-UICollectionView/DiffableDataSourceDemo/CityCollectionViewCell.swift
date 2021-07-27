@@ -9,7 +9,5 @@
 import UIKit
 
 class CityCollectionViewCell: UICollectionViewCell {
-    
-    @IBOutlet weak var cityLb: UILabel!
-    
+    @IBOutlet var cityLb: UILabel!
 }
