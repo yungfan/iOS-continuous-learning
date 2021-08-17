@@ -15,20 +15,23 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "abc")
         tableView.separatorStyle = .none
+        tableView.rowHeight = CGFloat.random(in: 44 ... 50)
         return tableView
     }()
-
-    // 当前可视部分的的最小值
-    var currentMinIndexPathRow: Int? {
-        didSet {
-            print("currentMinIndexPathRow: \(currentMinIndexPathRow)")
-        }
-    }
 
     // 当前可视部分的的最大值
     var currentMaxIndexPathRow: Int? {
         didSet {
-            print("currentMaxIndexPathRow: \(currentMaxIndexPathRow)")
+            // print("currentMaxIndexPathRow: \(currentMaxIndexPathRow)")
+        }
+    }
+
+    var halfScreenIndexPath: IndexPath!
+
+    var fullScreenIndexPath: IndexPath! {
+        didSet {
+            // 在这个范围内一定滚动
+            print("[min: \(fullScreenIndexPath.row)，mid：\(halfScreenIndexPath.row)，max： \(self.content.count - 1)]")
         }
     }
 
@@ -49,17 +52,18 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        // 滚到TableView的底部
-        scrollToBottom(immediate: true, animated: false)
+        // 一开始就滚到TableView的底部
+        scrollToBottom(immediate: true)
     }
 
+    // 有新数据加载
     func update1() {
         tableView.reloadData()
-        scrollToBottom(immediate: false, animated: false)
+        scrollToBottom(immediate: false)
     }
 
     // 滚到底部
-    func scrollToBottom(immediate: Bool, animated: Bool) {
+    func scrollToBottom(immediate: Bool, animated: Bool = false) {
         DispatchQueue.main.async {
             self.view.layoutIfNeeded()
 
@@ -67,10 +71,13 @@ class ViewController: UIViewController {
                 let indexPath = IndexPath(row: self.content.count - 1, section: 0)
                 self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
             } else {
+                // 重新计算区间
+                self.calculateRegion()
+
                 guard let currentMaxIndexPathRow = self.currentMaxIndexPathRow else { return }
-                guard let currentMinIndexPathRow = self.currentMinIndexPathRow else { return }
+
                 // 如果向上滑动了超过当前屏幕的数量的一半就不自动滚到底部
-                if currentMaxIndexPathRow > self.content.count - (currentMaxIndexPathRow - currentMinIndexPathRow) / 2 {
+                if self.halfScreenIndexPath.row < currentMaxIndexPathRow {
                     let indexPath = IndexPath(row: self.content.count - 1, section: 0)
                     self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
                 }
@@ -100,11 +107,41 @@ extension ViewController: UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     // 滚动的时候
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        guard let minRow = tableView.indexPathsForVisibleRows?.min()?.row else { return }
+        currentMaxIndexPathRow = tableView.indexPathsForVisibleRows?.max()?.row
 
-        if 0 != minRow {
-            currentMinIndexPathRow = tableView.indexPathsForVisibleRows?.min()?.row
-            currentMaxIndexPathRow = tableView.indexPathsForVisibleRows?.max()?.row
+        calculateRegion()
+    }
+}
+
+extension ViewController {
+    func calculateRegion() {
+        var visibleCellsHeight: CGFloat = 0
+
+        var condition1 = true
+        var condition2 = true
+
+        // 倒序计算cell的高度
+        for i in (0 ... content.count - 1).reversed() {
+            let indexPath = IndexPath(row: i, section: 0)
+            // 每个cell的尺寸
+            let rect = tableView.rectForRow(at: indexPath)
+            // 累加高度
+            visibleCellsHeight += rect.height
+            // 当高度超过tableView高度一半
+            if visibleCellsHeight > tableView.bounds.size.height * 0.5, condition1 {
+                halfScreenIndexPath = indexPath
+                condition1 = false
+            }
+            // 当高度超过tableView高度
+            if visibleCellsHeight >= tableView.bounds.size.height, condition2 {
+                fullScreenIndexPath = indexPath
+                condition2 = false
+            }
+
+            // 两个都找到停止遍历
+            if !condition1, !condition2 {
+                break
+            }
         }
     }
 }
