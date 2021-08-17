@@ -69,11 +69,13 @@ class ViewController: UIViewController {
             } else {
                 guard let currentMaxIndexPathRow = self.currentMaxIndexPathRow else { return }
                 guard let currentMinIndexPathRow = self.currentMinIndexPathRow else { return }
-                // 如果向上滑动了超过当前屏幕的数量就不自动滚到底部
-                if currentMaxIndexPathRow > self.content.count - (currentMaxIndexPathRow - currentMinIndexPathRow) {
+                // 如果向上滑动了超过当前屏幕的数量的一半就不自动滚到底部
+                if currentMaxIndexPathRow > self.content.count - (currentMaxIndexPathRow - currentMinIndexPathRow) / 2 {
                     let indexPath = IndexPath(row: self.content.count - 1, section: 0)
                     self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
                 }
+
+                floor(3.14)
             }
         }
     }
