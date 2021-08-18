@@ -5,110 +5,81 @@ enum Section: CaseIterable {
 }
 
 class ViewController: UIViewController {
-    let cityNames = ["北京", "南京", "西安", "杭州", "南通", "南阳", "苏州", "泰山", "黄山", "广州", "芜湖", "巢湖", "锦州", "湖州", "北海", "海口", "安庆", "安顺"]
+    lazy var refreshControl: UIRefreshControl = {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(loadData), for: .valueChanged)
+        return refreshControl
+    }()
 
-    @IBOutlet var tableView: UITableView!
+    lazy var tableView: UITableView = {
+        let tableView = UITableView(frame: UIScreen.main.bounds, style: .plain)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "abc")
+        tableView.refreshControl = refreshControl
+        return tableView
+    }()
 
-    var cities: [City] = [City]()
+    lazy var cities: [City] = {
+        let cityNames = ["芜湖", "北京", "南京", "西安", "杭州", "苏州", "广州"]
+        var cities = [City]()
+        for name in cityNames {
+            cities.append(City(name: name))
+        }
+        return cities
+    }()
 
+    // 数据源
     var dataSource: UITableViewDiffableDataSource<Section, City>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        for name in cityNames {
-            cities.append(City(name: name))
-        }
+        view.addSubview(tableView)
 
-        dataSource = UITableViewDiffableDataSource
-        <Section, City>(tableView: tableView) {
-            (tableView: UITableView, indexPath: IndexPath,
-             city: City) -> UITableViewCell? in
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        createDataSource()
+    }
+}
+
+extension ViewController {
+    // 创建数据源
+    func createDataSource() {
+        // 第一个参数为Section，第二个参数为Model数据类型
+        // 闭包是tableView(_:cellForRowAtIndexPath:)方法的替代品
+        dataSource = UITableViewDiffableDataSource<Section, City>(tableView: tableView) {
+            (tableView: UITableView, indexPath: IndexPath, city: City) -> UITableViewCell? in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "abc", for: indexPath)
             cell.textLabel?.text = city.name
             return cell
         }
-
+        // 显示动画
         dataSource.defaultRowAnimation = .fade
+        // 显示数据
+        show()
     }
 
-    func add() {
+    func show() {
+        // 通过数据源获取NSDiffableDataSourceSnapshot
         var snapshot = dataSource.snapshot()
-        // 增加
-        let city = [City(name: "AA")]
-        snapshot.appendItems(city)
-        dataSource.apply(snapshot)
-    }
-
-    func delete() {
-        var snapshot = dataSource.snapshot()
-        // 删除
-        if let item = snapshot.itemIdentifiers(inSection: .main).first {
-            snapshot.deleteItems([item])
-            dataSource.apply(snapshot)
-        }
-    }
-
-    func update() {
-        var snapshot = dataSource.snapshot()
-        if let item = snapshot.itemIdentifiers(inSection: .main).first {
-            // 插入
-            let city = [City(name: "BB")]
-            snapshot.insertItems(city, beforeItem: item)
-            dataSource.apply(snapshot)
-        }
-    }
-
-    func reload() {
-        var snapshot = dataSource.snapshot()
-        let items = snapshot.itemIdentifiers(inSection: .main)
-        let item = items.first
-        item?.name = "AA"
-        // iOS15新增，替换reloadItems
-        snapshot.reconfigureItems(items)
-        dataSource.apply(snapshot, animatingDifferences: false)
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        reload()
-    }
-
-    // 刚开始需要显示所有数据
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        performSearch(searchQuery: nil)
-    }
-
-    func performSearch(searchQuery: String?) {
-        let filteredCities: [City]
-
-        if let searchQuery = searchQuery, !searchQuery.isEmpty {
-            filteredCities = cities.filter { $0.contains(query: searchQuery) }
-        } else {
-            filteredCities = cities
-        }
-
-        var snapshot = NSDiffableDataSourceSnapshot<Section, City>()
-
+        // 更改NSDiffableDataSourceSnapshot
         snapshot.appendSections([.main])
-
-        snapshot.appendItems(filteredCities, toSection: .main)
-
+        snapshot.appendItems(cities, toSection: .main)
+        // 应用生效
         dataSource.apply(snapshot, animatingDifferences: true)
     }
-}
 
-extension ViewController: UISearchBarDelegate {
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        performSearch(searchQuery: searchText)
-    }
-}
-
-extension ViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let city = dataSource.itemIdentifier(for: indexPath) {
-            print("选择了\(city.name)")
+    @objc func loadData() {
+        var snapshot = dataSource.snapshot()
+        // 找到第一个和最后一个
+        let firstItem = snapshot.itemIdentifiers(inSection: .main).first
+        let lastItem = snapshot.itemIdentifiers(inSection: .main).last
+        // 修改并刷新
+        if let firstItem = firstItem, let lastItem = lastItem {
+            firstItem.name = "厦门"
+            lastItem.name = "上海"
+            // iOS15新增，替换reloadItems
+            snapshot.reconfigureItems([firstItem, lastItem])
+            dataSource.apply(snapshot, animatingDifferences: true)
+            // 结束刷新
+            refreshControl.endRefreshing()
         }
     }
 }

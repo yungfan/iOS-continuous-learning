@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         view.addSubview(tableView)
+        
         tableView.dataSource = self
     }
 }
