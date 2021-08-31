@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     func upload() {
         Task {
             do {
-                let resonpse = try await uploadFile(UIImage(named: "1234.png")!.pngData()!, to: URL(string: "http://192.168.0.97:8080/AppTestAPI/UploadServlet")!)
+                let resonpse = try await uploadFile(to: URL(string: "http://192.168.0.97:8080/AppTestAPI/UploadServlet")!)
                 print(resonpse)
             } catch {
                 print(error.localizedDescription)
@@ -100,13 +100,13 @@ extension ViewController {
 }
 
 extension ViewController {
-    func uploadFile(_ data: Data, to url: URL) async throws -> URLResponse {
+    func uploadFile(to url: URL) async throws -> URLResponse {
         var request = URLRequest(url: url)
         let head = "multipart/form-data;boundary=\(YFBoundary)"
         request.setValue(head, forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         var data = Data()
-        let header = headerString(mimeType: "image/png", uploadFile: "1234.png")
+        let header = headerString(mimeType: "image/png", uploadFile: "iOS15.png")
         data.append(header.data(using: .utf8)!)
         data.append(uploadData())
         let tailer = tailerString()
@@ -131,7 +131,7 @@ extension ViewController {
 
     // 上传内容
     func uploadData() -> Data {
-        let image = UIImage(named: "1234.png")
+        let image = UIImage(named: "iOS15.png")
         let imageData = image!.pngData()
         return imageData!
     }

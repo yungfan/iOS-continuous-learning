@@ -16,7 +16,7 @@
 		3C3255A726A661F60034A4FD /* URLSession_async_awaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3255A626A661F60034A4FD /* URLSession_async_awaitTests.swift */; };
 		3C3255B126A661F60034A4FD /* URLSession_async_awaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3255B026A661F60034A4FD /* URLSession_async_awaitUITests.swift */; };
 		3C3255BE26A662540034A4FD /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3255BD26A662540034A4FD /* NewsModel.swift */; };
-		3C3255C026A662DD0034A4FD /* 1234.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3255BF26A662DD0034A4FD /* 1234.png */; };
+		3C3255C026A662DD0034A4FD /* iOS15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C3255BF26A662DD0034A4FD /* iOS15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		3C3255AC26A661F60034A4FD /* URLSession-async&awaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSession-async&awaitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3255B026A661F60034A4FD /* URLSession_async_awaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession_async_awaitUITests.swift; sourceTree = "<group>"; };
 		3C3255BD26A662540034A4FD /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
-		3C3255BF26A662DD0034A4FD /* 1234.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1234.png; sourceTree = "<group>"; };
+		3C3255BF26A662DD0034A4FD /* iOS15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS15.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		3C32558E26A661F50034A4FD /* URLSession-async&await */ = {
 			isa = PBXGroup;
 			children = (
-				3C3255BF26A662DD0034A4FD /* 1234.png */,
+				3C3255BF26A662DD0034A4FD /* iOS15.png */,
 				3C32558F26A661F50034A4FD /* AppDelegate.swift */,
 				3C32559126A661F50034A4FD /* SceneDelegate.swift */,
 				3C32559326A661F50034A4FD /* ViewController.swift */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C32559C26A661F60034A4FD /* LaunchScreen.storyboard in Resources */,
-				3C3255C026A662DD0034A4FD /* 1234.png in Resources */,
+				3C3255C026A662DD0034A4FD /* iOS15.png in Resources */,
 				3C32559926A661F60034A4FD /* Assets.xcassets in Resources */,
 				3C32559726A661F50034A4FD /* Main.storyboard in Resources */,
 			);
