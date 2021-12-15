@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CBECAC22769FF3700CC2703 /* CloudKitTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBECAC12769FF3700CC2703 /* CloudKitTools.swift */; };
 		3FD22DE527696FDA00C9AE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD22DE427696FDA00C9AE28 /* AppDelegate.swift */; };
 		3FD22DE727696FDA00C9AE28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD22DE627696FDA00C9AE28 /* SceneDelegate.swift */; };
 		3FD22DE927696FDA00C9AE28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD22DE827696FDA00C9AE28 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CBECAC12769FF3700CC2703 /* CloudKitTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitTools.swift; sourceTree = "<group>"; };
 		3FD22DE127696FDA00C9AE28 /* CloudKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD22DE427696FDA00C9AE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD22DE627696FDA00C9AE28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				3FD22DE427696FDA00C9AE28 /* AppDelegate.swift */,
 				3FD22DE627696FDA00C9AE28 /* SceneDelegate.swift */,
 				3FD22DE827696FDA00C9AE28 /* ViewController.swift */,
+				3CBECAC12769FF3700CC2703 /* CloudKitTools.swift */,
 				3FD22DEA27696FDA00C9AE28 /* Main.storyboard */,
 				3FD22DED27696FDC00C9AE28 /* Assets.xcassets */,
 				3FD22DEF27696FDC00C9AE28 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FD22DE927696FDA00C9AE28 /* ViewController.swift in Sources */,
+				3CBECAC22769FF3700CC2703 /* CloudKitTools.swift in Sources */,
 				3FD22DE527696FDA00C9AE28 /* AppDelegate.swift in Sources */,
 				3FD22DE727696FDA00C9AE28 /* SceneDelegate.swift in Sources */,
 			);
@@ -454,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QF8H8R2NAV;
 				INFOPLIST_FILE = CloudKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QF8H8R2NAV;
 				INFOPLIST_FILE = CloudKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
