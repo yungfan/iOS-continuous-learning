@@ -30,14 +30,9 @@ class ViewController: UIViewController {
             cities.append(City(name: name))
         }
 
-        dataSource = UICollectionViewDiffableDataSource
-        <Section, City>(collectionView: collectionView) {
-            (collectionView: UICollectionView, indexPath: IndexPath,
-             city: City) -> UICollectionViewCell? in
-
-            let cell = collectionView.dequeueReusableCell(
-                withReuseIdentifier: "cell", for: indexPath) as? CityCollectionViewCell
-
+        dataSource = UICollectionViewDiffableDataSource<Section, City>(collectionView: collectionView) {
+            (collectionView: UICollectionView, indexPath: IndexPath, city: City) -> UICollectionViewCell? in
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CityCollectionViewCell
             cell?.cityLb.text = city.name
             return cell
         }
@@ -90,18 +85,13 @@ extension ViewController: UISearchBarDelegate {
 extension ViewController {
     func generateLayout() -> UICollectionViewCompositionalLayout {
         // 1 构造Item的NSCollectionLayoutSize
-        let itemSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(0.25),
-            heightDimension: .fractionalHeight(1.0))
+        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.25), heightDimension: .fractionalHeight(1.0))
 
         // 2 构造NSCollectionLayoutItem
-        // let item = NSCollectionLayoutItem(layoutSize: itemSize)
 
-        let badgeAnchor = NSCollectionLayoutAnchor(edges: [.top, .trailing],
-                                                   fractionalOffset: CGPoint(x: 0.5, y: -0.4))
+        let badgeAnchor = NSCollectionLayoutAnchor(edges: [.top, .trailing], fractionalOffset: CGPoint(x: 0.5, y: -0.4))
 
-        let badgeSize = NSCollectionLayoutSize(widthDimension: .absolute(16),
-                                               heightDimension: .absolute(16))
+        let badgeSize = NSCollectionLayoutSize(widthDimension: .absolute(16), heightDimension: .absolute(16))
 
         let badge = NSCollectionLayoutSupplementaryItem(layoutSize: badgeSize, elementKind: "badge", containerAnchor: badgeAnchor)
 
