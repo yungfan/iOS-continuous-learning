@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C12ED6D2842597D00E18713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED6C2842597D00E18713 /* AppDelegate.swift */; };
+		3C12ED6F2842597D00E18713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED6E2842597D00E18713 /* SceneDelegate.swift */; };
+		3C12ED712842597D00E18713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED702842597D00E18713 /* ViewController.swift */; };
+		3C12ED742842597D00E18713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C12ED722842597D00E18713 /* Main.storyboard */; };
+		3C12ED762842597F00E18713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C12ED752842597F00E18713 /* Assets.xcassets */; };
+		3C12ED792842597F00E18713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C12ED772842597F00E18713 /* LaunchScreen.storyboard */; };
+		3C12ED842842597F00E18713 /* iPadOSMultiWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED832842597F00E18713 /* iPadOSMultiWindowTests.swift */; };
+		3C12ED8E2842597F00E18713 /* iPadOSMultiWindowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED8D2842597F00E18713 /* iPadOSMultiWindowUITests.swift */; };
+		3C12ED902842597F00E18713 /* iPadOSMultiWindowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12ED8F2842597F00E18713 /* iPadOSMultiWindowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C12ED802842597F00E18713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C12ED612842597D00E18713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C12ED682842597D00E18713;
+			remoteInfo = iPadOSMultiWindow;
+		};
+		3C12ED8A2842597F00E18713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C12ED612842597D00E18713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C12ED682842597D00E18713;
+			remoteInfo = iPadOSMultiWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C12ED692842597D00E18713 /* iPadOSMultiWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadOSMultiWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C12ED6C2842597D00E18713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C12ED6E2842597D00E18713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C12ED702842597D00E18713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C12ED732842597D00E18713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C12ED752842597F00E18713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C12ED782842597F00E18713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C12ED7A2842597F00E18713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C12ED7F2842597F00E18713 /* iPadOSMultiWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadOSMultiWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C12ED832842597F00E18713 /* iPadOSMultiWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadOSMultiWindowTests.swift; sourceTree = "<group>"; };
+		3C12ED892842597F00E18713 /* iPadOSMultiWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPadOSMultiWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C12ED8D2842597F00E18713 /* iPadOSMultiWindowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadOSMultiWindowUITests.swift; sourceTree = "<group>"; };
+		3C12ED8F2842597F00E18713 /* iPadOSMultiWindowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPadOSMultiWindowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C12ED662842597D00E18713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED7C2842597F00E18713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED862842597F00E18713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C12ED602842597D00E18713 = {
+			isa = PBXGroup;
+			children = (
+				3C12ED6B2842597D00E18713 /* iPadOSMultiWindow */,
+				3C12ED822842597F00E18713 /* iPadOSMultiWindowTests */,
+				3C12ED8C2842597F00E18713 /* iPadOSMultiWindowUITests */,
+				3C12ED6A2842597D00E18713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C12ED6A2842597D00E18713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C12ED692842597D00E18713 /* iPadOSMultiWindow.app */,
+				3C12ED7F2842597F00E18713 /* iPadOSMultiWindowTests.xctest */,
+				3C12ED892842597F00E18713 /* iPadOSMultiWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C12ED6B2842597D00E18713 /* iPadOSMultiWindow */ = {
+			isa = PBXGroup;
+			children = (
+				3C12ED6C2842597D00E18713 /* AppDelegate.swift */,
+				3C12ED6E2842597D00E18713 /* SceneDelegate.swift */,
+				3C12ED702842597D00E18713 /* ViewController.swift */,
+				3C12ED722842597D00E18713 /* Main.storyboard */,
+				3C12ED752842597F00E18713 /* Assets.xcassets */,
+				3C12ED772842597F00E18713 /* LaunchScreen.storyboard */,
+				3C12ED7A2842597F00E18713 /* Info.plist */,
+			);
+			path = iPadOSMultiWindow;
+			sourceTree = "<group>";
+		};
+		3C12ED822842597F00E18713 /* iPadOSMultiWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C12ED832842597F00E18713 /* iPadOSMultiWindowTests.swift */,
+			);
+			path = iPadOSMultiWindowTests;
+			sourceTree = "<group>";
+		};
+		3C12ED8C2842597F00E18713 /* iPadOSMultiWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C12ED8D2842597F00E18713 /* iPadOSMultiWindowUITests.swift */,
+				3C12ED8F2842597F00E18713 /* iPadOSMultiWindowUITestsLaunchTests.swift */,
+			);
+			path = iPadOSMultiWindowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C12ED682842597D00E18713 /* iPadOSMultiWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C12ED932842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindow" */;
+			buildPhases = (
+				3C12ED652842597D00E18713 /* Sources */,
+				3C12ED662842597D00E18713 /* Frameworks */,
+				3C12ED672842597D00E18713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadOSMultiWindow;
+			productName = iPadOSMultiWindow;
+			productReference = 3C12ED692842597D00E18713 /* iPadOSMultiWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C12ED7E2842597F00E18713 /* iPadOSMultiWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C12ED962842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindowTests" */;
+			buildPhases = (
+				3C12ED7B2842597F00E18713 /* Sources */,
+				3C12ED7C2842597F00E18713 /* Frameworks */,
+				3C12ED7D2842597F00E18713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C12ED812842597F00E18713 /* PBXTargetDependency */,
+			);
+			name = iPadOSMultiWindowTests;
+			productName = iPadOSMultiWindowTests;
+			productReference = 3C12ED7F2842597F00E18713 /* iPadOSMultiWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C12ED882842597F00E18713 /* iPadOSMultiWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C12ED992842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindowUITests" */;
+			buildPhases = (
+				3C12ED852842597F00E18713 /* Sources */,
+				3C12ED862842597F00E18713 /* Frameworks */,
+				3C12ED872842597F00E18713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C12ED8B2842597F00E18713 /* PBXTargetDependency */,
+			);
+			name = iPadOSMultiWindowUITests;
+			productName = iPadOSMultiWindowUITests;
+			productReference = 3C12ED892842597F00E18713 /* iPadOSMultiWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C12ED612842597D00E18713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3C12ED682842597D00E18713 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					3C12ED7E2842597F00E18713 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3C12ED682842597D00E18713;
+					};
+					3C12ED882842597F00E18713 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3C12ED682842597D00E18713;
+					};
+				};
+			};
+			buildConfigurationList = 3C12ED642842597D00E18713 /* Build configuration list for PBXProject "iPadOSMultiWindow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C12ED602842597D00E18713;
+			productRefGroup = 3C12ED6A2842597D00E18713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C12ED682842597D00E18713 /* iPadOSMultiWindow */,
+				3C12ED7E2842597F00E18713 /* iPadOSMultiWindowTests */,
+				3C12ED882842597F00E18713 /* iPadOSMultiWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C12ED672842597D00E18713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C12ED792842597F00E18713 /* LaunchScreen.storyboard in Resources */,
+				3C12ED762842597F00E18713 /* Assets.xcassets in Resources */,
+				3C12ED742842597D00E18713 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED7D2842597F00E18713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED872842597F00E18713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C12ED652842597D00E18713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C12ED712842597D00E18713 /* ViewController.swift in Sources */,
+				3C12ED6D2842597D00E18713 /* AppDelegate.swift in Sources */,
+				3C12ED6F2842597D00E18713 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED7B2842597F00E18713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C12ED842842597F00E18713 /* iPadOSMultiWindowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12ED852842597F00E18713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C12ED902842597F00E18713 /* iPadOSMultiWindowUITestsLaunchTests.swift in Sources */,
+				3C12ED8E2842597F00E18713 /* iPadOSMultiWindowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C12ED812842597F00E18713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C12ED682842597D00E18713 /* iPadOSMultiWindow */;
+			targetProxy = 3C12ED802842597F00E18713 /* PBXContainerItemProxy */;
+		};
+		3C12ED8B2842597F00E18713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C12ED682842597D00E18713 /* iPadOSMultiWindow */;
+			targetProxy = 3C12ED8A2842597F00E18713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C12ED722842597D00E18713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C12ED732842597D00E18713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C12ED772842597F00E18713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C12ED782842597F00E18713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C12ED912842597F00E18713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C12ED922842597F00E18713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C12ED942842597F00E18713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iPadOSMultiWindow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C12ED952842597F00E18713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iPadOSMultiWindow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C12ED972842597F00E18713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadOSMultiWindow.app/iPadOSMultiWindow";
+			};
+			name = Debug;
+		};
+		3C12ED982842597F00E18713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPadOSMultiWindow.app/iPadOSMultiWindow";
+			};
+			name = Release;
+		};
+		3C12ED9A2842597F00E18713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPadOSMultiWindow;
+			};
+			name = Debug;
+		};
+		3C12ED9B2842597F00E18713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.iPadOSMultiWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPadOSMultiWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C12ED642842597D00E18713 /* Build configuration list for PBXProject "iPadOSMultiWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12ED912842597F00E18713 /* Debug */,
+				3C12ED922842597F00E18713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C12ED932842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12ED942842597F00E18713 /* Debug */,
+				3C12ED952842597F00E18713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C12ED962842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12ED972842597F00E18713 /* Debug */,
+				3C12ED982842597F00E18713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C12ED992842597F00E18713 /* Build configuration list for PBXNativeTarget "iPadOSMultiWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12ED9A2842597F00E18713 /* Debug */,
+				3C12ED9B2842597F00E18713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C12ED612842597D00E18713 /* Project object */;
+}
